@@ -1,0 +1,776 @@
+{
+  "@type" : "TEMPLATE",
+  "uid" : "840112d0-7994-47ce-ba90-6dee4d04f172",
+  "description" : {
+    "@type" : "RESOURCE_DESCRIPTION",
+    "originalAuthor" : {
+      "name" : "Erik Sundvall",
+      "organisation" : "Region Östergötland & Linköping University, Sweden",
+      "email" : "erik.sundvall@regionostergotland.se",
+      "date" : "2021-05-18"
+    },
+    "otherContributors" : [ ],
+    "lifecycleState" : {
+      "codeString" : "unmanaged"
+    },
+    "ipAcknowledgements" : { },
+    "references" : { },
+    "conversionDetails" : { },
+    "otherDetails" : {
+      "licence" : "",
+      "custodian_organisation" : "",
+      "original_namespace" : "",
+      "original_publisher" : "",
+      "custodian_namespace" : "",
+      "sem_ver" : "0.1.0",
+      "build_uid" : "",
+      "MD5-CAM-1.0.1" : "4992db3773a1a27e0297a0dd4b3435c3",
+      "PARENT:MD5-CAM-1.0.1" : "170F2F8FCE46E22662FC61919622AE21"
+    },
+    "details" : {
+      "de" : {
+        "@type" : "RESOURCE_DESCRIPTION_ITEM",
+        "language" : {
+          "terminologyId" : {
+            "value" : "ISO_639-1"
+          },
+          "codeString" : "de"
+        },
+        "keywords" : [ ],
+        "originalResourceUri" : { },
+        "otherDetails" : { }
+      },
+      "ru" : {
+        "@type" : "RESOURCE_DESCRIPTION_ITEM",
+        "language" : {
+          "terminologyId" : {
+            "value" : "ISO_639-1"
+          },
+          "codeString" : "ru"
+        },
+        "keywords" : [ ],
+        "originalResourceUri" : { },
+        "otherDetails" : { }
+      },
+      "sv" : {
+        "@type" : "RESOURCE_DESCRIPTION_ITEM",
+        "language" : {
+          "terminologyId" : {
+            "value" : "ISO_639-1"
+          },
+          "codeString" : "sv"
+        },
+        "keywords" : [ ],
+        "originalResourceUri" : { },
+        "otherDetails" : { }
+      },
+      "fi" : {
+        "@type" : "RESOURCE_DESCRIPTION_ITEM",
+        "language" : {
+          "terminologyId" : {
+            "value" : "ISO_639-1"
+          },
+          "codeString" : "fi"
+        },
+        "keywords" : [ ],
+        "originalResourceUri" : { },
+        "otherDetails" : { }
+      },
+      "ko" : {
+        "@type" : "RESOURCE_DESCRIPTION_ITEM",
+        "language" : {
+          "terminologyId" : {
+            "value" : "ISO_639-1"
+          },
+          "codeString" : "ko"
+        },
+        "keywords" : [ ],
+        "originalResourceUri" : { },
+        "otherDetails" : { }
+      },
+      "pt-br" : {
+        "@type" : "RESOURCE_DESCRIPTION_ITEM",
+        "language" : {
+          "terminologyId" : {
+            "value" : "ISO_639-1"
+          },
+          "codeString" : "pt-br"
+        },
+        "keywords" : [ ],
+        "originalResourceUri" : { },
+        "otherDetails" : { }
+      },
+      "ar-sy" : {
+        "@type" : "RESOURCE_DESCRIPTION_ITEM",
+        "language" : {
+          "terminologyId" : {
+            "value" : "ISO_639-1"
+          },
+          "codeString" : "ar-sy"
+        },
+        "keywords" : [ ],
+        "originalResourceUri" : { },
+        "otherDetails" : { }
+      },
+      "en" : {
+        "@type" : "RESOURCE_DESCRIPTION_ITEM",
+        "language" : {
+          "terminologyId" : {
+            "value" : "ISO_639-1"
+          },
+          "codeString" : "en"
+        },
+        "keywords" : [ ],
+        "originalResourceUri" : { },
+        "otherDetails" : { }
+      },
+      "zh-cn" : {
+        "@type" : "RESOURCE_DESCRIPTION_ITEM",
+        "language" : {
+          "terminologyId" : {
+            "value" : "ISO_639-1"
+          },
+          "codeString" : "zh-cn"
+        },
+        "keywords" : [ ],
+        "originalResourceUri" : { },
+        "otherDetails" : { }
+      },
+      "es" : {
+        "@type" : "RESOURCE_DESCRIPTION_ITEM",
+        "language" : {
+          "terminologyId" : {
+            "value" : "ISO_639-1"
+          },
+          "codeString" : "es"
+        },
+        "keywords" : [ ],
+        "originalResourceUri" : { },
+        "otherDetails" : { }
+      },
+      "es-ar" : {
+        "@type" : "RESOURCE_DESCRIPTION_ITEM",
+        "language" : {
+          "terminologyId" : {
+            "value" : "ISO_639-1"
+          },
+          "codeString" : "es-ar"
+        },
+        "keywords" : [ ],
+        "originalResourceUri" : { },
+        "otherDetails" : { }
+      },
+      "nb" : {
+        "@type" : "RESOURCE_DESCRIPTION_ITEM",
+        "language" : {
+          "terminologyId" : {
+            "value" : "ISO_639-1"
+          },
+          "codeString" : "nb"
+        },
+        "keywords" : [ ],
+        "originalResourceUri" : { },
+        "otherDetails" : { }
+      },
+      "ja" : {
+        "@type" : "RESOURCE_DESCRIPTION_ITEM",
+        "language" : {
+          "terminologyId" : {
+            "value" : "ISO_639-1"
+          },
+          "codeString" : "ja"
+        },
+        "keywords" : [ ],
+        "originalResourceUri" : { },
+        "otherDetails" : { }
+      },
+      "fa" : {
+        "@type" : "RESOURCE_DESCRIPTION_ITEM",
+        "language" : {
+          "terminologyId" : {
+            "value" : "ISO_639-1"
+          },
+          "codeString" : "fa"
+        },
+        "keywords" : [ ],
+        "originalResourceUri" : { },
+        "otherDetails" : { }
+      },
+      "nl" : {
+        "@type" : "RESOURCE_DESCRIPTION_ITEM",
+        "language" : {
+          "terminologyId" : {
+            "value" : "ISO_639-1"
+          },
+          "codeString" : "nl"
+        },
+        "keywords" : [ ],
+        "originalResourceUri" : { },
+        "otherDetails" : { }
+      }
+    }
+  },
+  "parentArchetypeId" : "openEHR-EHR-OBSERVATION.blood_pressure.v2",
+  "differential" : true,
+  "archetypeId" : {
+    "@type" : "ARCHETYPE_HRID",
+    "value" : "openEHR-EHR-OBSERVATION.t_blood_pressure.v2"
+  },
+  "definition" : {
+    "@type" : "C_COMPLEX_OBJECT",
+    "rmTypeName" : "OBSERVATION",
+    "nodeId" : "at0000.1",
+    "attributes" : [ {
+      "@type" : "C_ATTRIBUTE",
+      "rmAttributeName" : "data",
+      "children" : [ {
+        "@type" : "C_COMPLEX_OBJECT",
+        "rmTypeName" : "HISTORY",
+        "nodeId" : "at0001",
+        "attributes" : [ {
+          "@type" : "C_ATTRIBUTE",
+          "rmAttributeName" : "events",
+          "children" : [ {
+            "@type" : "C_COMPLEX_OBJECT",
+            "rmTypeName" : "EVENT",
+            "nodeId" : "at0006",
+            "attributes" : [ {
+              "@type" : "C_ATTRIBUTE",
+              "rmAttributeName" : "data",
+              "children" : [ {
+                "@type" : "C_COMPLEX_OBJECT",
+                "rmTypeName" : "ITEM_TREE",
+                "nodeId" : "at0003.1",
+                "attributes" : [ {
+                  "@type" : "C_ATTRIBUTE",
+                  "rmAttributeName" : "items",
+                  "children" : [ {
+                    "@type" : "C_COMPLEX_OBJECT",
+                    "rmTypeName" : "ELEMENT",
+                    "occurrences" : "0..0",
+                    "nodeId" : "at1006.1",
+                    "attributes" : [ {
+                      "@type" : "C_ATTRIBUTE",
+                      "rmAttributeName" : "value",
+                      "children" : [ {
+                        "@type" : "C_COMPLEX_OBJECT",
+                        "rmTypeName" : "DV_QUANTITY",
+                        "attributes" : [ ],
+                        "attributeTuples" : [ {
+                          "@type" : "C_ATTRIBUTE_TUPLE",
+                          "members" : [ {
+                            "@type" : "C_ATTRIBUTE",
+                            "rmAttributeName" : "units",
+                            "children" : [ ]
+                          }, {
+                            "@type" : "C_ATTRIBUTE",
+                            "rmAttributeName" : "magnitude",
+                            "children" : [ ]
+                          }, {
+                            "@type" : "C_ATTRIBUTE",
+                            "rmAttributeName" : "precision",
+                            "children" : [ ]
+                          } ],
+                          "tuples" : [ {
+                            "@type" : "C_PRIMITIVE_TUPLE",
+                            "members" : [ {
+                              "@type" : "C_STRING",
+                              "rmTypeName" : "STRING",
+                              "constraint" : [ "mm[Hg]" ]
+                            }, {
+                              "@type" : "C_REAL",
+                              "rmTypeName" : "REAL",
+                              "constraint" : [ {
+                                "lower" : 0.0,
+                                "upper" : 1000.0,
+                                "lowerIncluded" : true,
+                                "upperIncluded" : false,
+                                "lowerUnbounded" : false,
+                                "upperUnbounded" : false
+                              } ]
+                            }, {
+                              "@type" : "C_INTEGER",
+                              "rmTypeName" : "INTEGER",
+                              "constraint" : [ {
+                                "lower" : 0,
+                                "upper" : 0,
+                                "lowerIncluded" : true,
+                                "upperIncluded" : true,
+                                "lowerUnbounded" : false,
+                                "upperUnbounded" : false
+                              } ]
+                            } ]
+                          } ]
+                        } ]
+                      } ]
+                    } ],
+                    "attributeTuples" : [ ]
+                  }, {
+                    "@type" : "C_COMPLEX_OBJECT",
+                    "rmTypeName" : "ELEMENT",
+                    "occurrences" : "0..0",
+                    "nodeId" : "at1007.1",
+                    "attributes" : [ {
+                      "@type" : "C_ATTRIBUTE",
+                      "rmAttributeName" : "value",
+                      "children" : [ {
+                        "@type" : "C_COMPLEX_OBJECT",
+                        "rmTypeName" : "DV_QUANTITY",
+                        "attributes" : [ ],
+                        "attributeTuples" : [ {
+                          "@type" : "C_ATTRIBUTE_TUPLE",
+                          "members" : [ {
+                            "@type" : "C_ATTRIBUTE",
+                            "rmAttributeName" : "units",
+                            "children" : [ ]
+                          }, {
+                            "@type" : "C_ATTRIBUTE",
+                            "rmAttributeName" : "magnitude",
+                            "children" : [ ]
+                          }, {
+                            "@type" : "C_ATTRIBUTE",
+                            "rmAttributeName" : "precision",
+                            "children" : [ ]
+                          } ],
+                          "tuples" : [ {
+                            "@type" : "C_PRIMITIVE_TUPLE",
+                            "members" : [ {
+                              "@type" : "C_STRING",
+                              "rmTypeName" : "STRING",
+                              "constraint" : [ "mm[Hg]" ]
+                            }, {
+                              "@type" : "C_REAL",
+                              "rmTypeName" : "REAL",
+                              "constraint" : [ {
+                                "lower" : 0.0,
+                                "upper" : 1000.0,
+                                "lowerIncluded" : true,
+                                "upperIncluded" : false,
+                                "lowerUnbounded" : false,
+                                "upperUnbounded" : false
+                              } ]
+                            }, {
+                              "@type" : "C_INTEGER",
+                              "rmTypeName" : "INTEGER",
+                              "constraint" : [ {
+                                "lower" : 0,
+                                "upper" : 0,
+                                "lowerIncluded" : true,
+                                "upperIncluded" : true,
+                                "lowerUnbounded" : false,
+                                "upperUnbounded" : false
+                              } ]
+                            } ]
+                          } ]
+                        } ]
+                      } ]
+                    } ],
+                    "attributeTuples" : [ ]
+                  }, {
+                    "@type" : "C_COMPLEX_OBJECT",
+                    "rmTypeName" : "ELEMENT",
+                    "occurrences" : "0..0",
+                    "nodeId" : "at1059.1",
+                    "attributes" : [ ],
+                    "attributeTuples" : [ ]
+                  }, {
+                    "@type" : "C_COMPLEX_OBJECT",
+                    "rmTypeName" : "ELEMENT",
+                    "occurrences" : "0..0",
+                    "nodeId" : "at0033.1",
+                    "attributes" : [ ],
+                    "attributeTuples" : [ ]
+                  } ]
+                } ],
+                "attributeTuples" : [ ]
+              } ]
+            }, {
+              "@type" : "C_ATTRIBUTE",
+              "rmAttributeName" : "state",
+              "children" : [ {
+                "@type" : "C_COMPLEX_OBJECT",
+                "rmTypeName" : "ITEM_TREE",
+                "nodeId" : "at0007.1",
+                "attributes" : [ ],
+                "attributeTuples" : [ ]
+              } ]
+            } ],
+            "attributeTuples" : [ ]
+          }, {
+            "@type" : "C_COMPLEX_OBJECT",
+            "rmTypeName" : "INTERVAL_EVENT",
+            "occurrences" : "0..0",
+            "nodeId" : "at1042.1",
+            "attributes" : [ {
+              "@type" : "C_ATTRIBUTE",
+              "rmAttributeName" : "data",
+              "children" : [ {
+                "@type" : "C_COMPLEX_OBJECT",
+                "rmTypeName" : "ITEM_TREE",
+                "nodeId" : "at0003.2",
+                "targetPath" : "/data[at0001]/events[at0006]/data[at0003.1]",
+                "attributes" : [ ],
+                "attributeTuples" : [ ]
+              } ]
+            }, {
+              "@type" : "C_ATTRIBUTE",
+              "rmAttributeName" : "state",
+              "children" : [ {
+                "@type" : "C_COMPLEX_OBJECT",
+                "rmTypeName" : "ITEM_TREE",
+                "nodeId" : "at0007.2",
+                "targetPath" : "/data[at0001]/events[at0006]/state[at0007.1]",
+                "attributes" : [ ],
+                "attributeTuples" : [ ]
+              } ]
+            }, {
+              "@type" : "C_ATTRIBUTE",
+              "rmAttributeName" : "math_function",
+              "children" : [ {
+                "@type" : "C_COMPLEX_OBJECT",
+                "rmTypeName" : "DV_CODED_TEXT",
+                "attributes" : [ {
+                  "@type" : "C_ATTRIBUTE",
+                  "rmAttributeName" : "defining_code",
+                  "children" : [ {
+                    "@type" : "C_TERMINOLOGY_CODE",
+                    "rmTypeName" : "TERMINOLOGY_CODE",
+                    "terminologyId" : {
+                      "value" : "openehr"
+                    },
+                    "constraint" : [ "146" ]
+                  } ]
+                } ],
+                "attributeTuples" : [ ]
+              } ]
+            }, {
+              "@type" : "C_ATTRIBUTE",
+              "rmAttributeName" : "width",
+              "children" : [ {
+                "@type" : "C_COMPLEX_OBJECT",
+                "rmTypeName" : "DV_DURATION",
+                "attributes" : [ {
+                  "@type" : "C_ATTRIBUTE",
+                  "rmAttributeName" : "value",
+                  "children" : [ {
+                    "@type" : "C_DURATION",
+                    "rmTypeName" : "DURATION",
+                    "occurrences" : "1..1",
+                    "constraint" : [ {
+                      "lower" : "PT24H",
+                      "upper" : "PT24H",
+                      "lowerIncluded" : true,
+                      "upperIncluded" : true,
+                      "lowerUnbounded" : false,
+                      "upperUnbounded" : false
+                    } ]
+                  } ]
+                } ],
+                "attributeTuples" : [ ]
+              } ]
+            } ],
+            "attributeTuples" : [ ]
+          } ]
+        } ],
+        "attributeTuples" : [ ]
+      } ]
+    } ],
+    "attributeTuples" : [ ]
+  },
+  "terminology" : {
+    "@type" : "ARCHETYPE_TERMINOLOGY",
+    "conceptCode" : "at0000",
+    "termDefinitions" : {
+      "en" : {
+        "at0000.1" : {
+          "@type" : "ARCHETYPE_TERM",
+          "code" : "at0000.1",
+          "text" : "bp",
+          "description" : "The local measurement of arterial blood pressure which is a surrogate for arterial pressure in the systemic circulation.",
+          "comment" : "Most commonly, use of the term 'blood pressure' refers to measurement of brachial artery pressure in the upper arm."
+        }
+      },
+      "ja" : {
+        "at0000.1" : {
+          "@type" : "ARCHETYPE_TERM",
+          "code" : "at0000.1",
+          "text" : "bp",
+          "description" : "全身を循環する動脈圧の指標として，局所で測定される血圧。一般的には「血圧」とは上腕で上腕動脈圧を測定したものをさすことが多い。"
+        }
+      },
+      "de" : {
+        "at0000.1" : {
+          "@type" : "ARCHETYPE_TERM",
+          "code" : "at0000.1",
+          "text" : "bp",
+          "description" : "Die lokale Messung des arteriellen Blutdrucks als Surrogat für den arteriellen Druck in der systemischen Zirkulation.",
+          "comment" : "Häufig wird der Ausdruck 'Blutdruck' zur Bezeichung der Messung des brachialen Ateriendrucks im Oberarm verwendet."
+        }
+      },
+      "zh-cn" : {
+        "at0000.1" : {
+          "@type" : "ARCHETYPE_TERM",
+          "code" : "at0000.1",
+          "text" : "bp",
+          "description" : "代表体循环动脉压的动脉血压的局部测量。",
+          "comment" : "最为常见的情况下是，利用术语“血压”来指称上臂肱动脉压的测量结果。"
+        }
+      },
+      "nl" : {
+        "at0000.1" : {
+          "@type" : "ARCHETYPE_TERM",
+          "code" : "at0000.1",
+          "text" : "bp",
+          "description" : "De lokale meting van de arteriële bloeddruk, welke surrogaat is voor de arteriële druk in de systemische circulatie.",
+          "comment" : "Meest gebruikelijk is dat de term 'bloeddruk' refereert aan de meting van de bloeddruk van de arterie brachialis in de bovenarm."
+        }
+      },
+      "ru" : {
+        "at0000.1" : {
+          "@type" : "ARCHETYPE_TERM",
+          "code" : "at0000.1",
+          "text" : "bp",
+          "description" : "Локальное измерение артериального давления, которое является суррогатом артериального давления в системном кровотоке. Как правило, термин относится к давления плечевой артерии на предплечье.\r\n"
+        }
+      },
+      "fa" : {
+        "at0000.1" : {
+          "@type" : "ARCHETYPE_TERM",
+          "code" : "at0000.1",
+          "text" : "bp",
+          "description" : "اندازه گیری موضعی فشار خون وریدی، که جایگزینی برای فشار وریدی در گردش خون کلی است.\r\nمعمولا واژه \"فشار خون\" به اندازه گیری فشار ورید بازویی در روی بازو گفته می شود"
+        }
+      },
+      "ar-sy" : {
+        "at0000.1" : {
+          "@type" : "ARCHETYPE_TERM",
+          "code" : "at0000.1",
+          "text" : "bp",
+          "description" : "قياس موضعي لضغط الدم الشرياني و الذي يحل محل الضغط الشرياني في الدورة الدموية الجهازية. \r\nو عادة ما يستخدم مصطلح \"ضغط الدم\" لللإشارة إلى قياس ضغط دم الشريان العضُدي في أعلى الذراع."
+        }
+      },
+      "es-ar" : {
+        "at0000.1" : {
+          "@type" : "ARCHETYPE_TERM",
+          "code" : "at0000.1",
+          "text" : "bp",
+          "description" : "La medición local de la tensión arterial que deriva de la medida de la presión arterial en la circulación sistémica. Comúnmente el uso de 'presión arterial' se refiere a la medida de la presión de la arteria braquial por encima del pliegue del codo."
+        }
+      },
+      "pt-br" : {
+        "at0000.1" : {
+          "@type" : "ARCHETYPE_TERM",
+          "code" : "at0000.1",
+          "text" : "bp",
+          "description" : "A medida local da pressão sanguínea arterial, a qual é uma substituta da pressão arterial na circulação arterial sistêmica. Mais comumente o uso do termo pressão arterial se refere à medida da pressão da artéria braquial no antebraço.",
+          "comment" : "*Most commonly, use of the term 'blood pressure' refers to measurement of brachial artery pressure in the upper arm.(en)"
+        }
+      },
+      "ko" : {
+        "at0000.1" : {
+          "@type" : "ARCHETYPE_TERM",
+          "code" : "at0000.1",
+          "text" : "bp",
+          "description" : "체순환에서 동맥압을 대신하는 동맥혈압의 국소 측정. 보통은 '혈압'이라는 용어의 사용은 상완에서 상완동맥의 측정을 의미함."
+        }
+      },
+      "es" : {
+        "at0000.1" : {
+          "@type" : "ARCHETYPE_TERM",
+          "code" : "at0000.1",
+          "text" : "bp",
+          "description" : "Medida de la presión arterial"
+        }
+      },
+      "nb" : {
+        "at0000.1" : {
+          "@type" : "ARCHETYPE_TERM",
+          "code" : "at0000.1",
+          "text" : "bp",
+          "description" : "Måling av blodtrykket som uttrykk for det arterielle blodtrykk i det systemiske kretsløp.",
+          "comment" : "Vanligvis brukes begrepet \"blodtrykk\" om måling av brakialt arterietrykk i overarmen."
+        }
+      },
+      "sv" : {
+        "at0000.1" : {
+          "@type" : "ARCHETYPE_TERM",
+          "code" : "at0000.1",
+          "text" : "bp",
+          "description" : "Den lokala mätningen av artärblodtrycket som är ett surrogat för artärtryck i systemcirkulationen. Vanligtvis refererar användningen av termen blodtryck till mätningen av brakialartärtrycket i överarmen.",
+          "comment" : "*Most commonly, use of the term 'blood pressure' refers to measurement of brachial artery pressure in the upper arm.(en)"
+        }
+      },
+      "fi" : {
+        "at0000.1" : {
+          "@type" : "ARCHETYPE_TERM",
+          "code" : "at0000.1",
+          "text" : "bp",
+          "description" : "Paikallisen valtimopaineen mittaustulos, joka toimii korvikkeena systeemisen verenkierron valtimopaineelle.  Termillä ”verenpaine” viitataan yleensä olkavarresta tehtävään olkavarsivaltimon paineen mittaustulokseen.",
+          "comment" : "Yleisimmin termi \"verenpaine\" viittaa brakiaalisen olkavarren arteriapaineeseen."
+        }
+      }
+    },
+    "termBindings" : {
+      "SNOMED-CT" : {
+        "at0000.1" : "term:SNOMED-CT(2003)::364090009"
+      }
+    },
+    "terminologyExtracts" : { },
+    "valueSets" : { }
+  },
+  "adlVersion" : "1.4",
+  "buildUid" : "5e73cefd-a676-3d10-8db3-a0f669df688d",
+  "rmName" : "openehr",
+  "rmRelease" : "1.1.0",
+  "generated" : true,
+  "templateId" : "bp",
+  "otherMetaData" : { },
+  "templateOverlays" : [ ],
+  "originalLanguage" : {
+    "terminologyId" : {
+      "value" : "ISO_639-1"
+    },
+    "codeString" : "en"
+  },
+  "translations" : [ {
+    "@type" : "TRANSLATION_DETAILS",
+    "language" : {
+      "terminologyId" : {
+        "value" : "ISO_639-1"
+      },
+      "codeString" : "de"
+    },
+    "author" : { },
+    "otherDetails" : { }
+  }, {
+    "@type" : "TRANSLATION_DETAILS",
+    "language" : {
+      "terminologyId" : {
+        "value" : "ISO_639-1"
+      },
+      "codeString" : "ru"
+    },
+    "author" : { },
+    "otherDetails" : { }
+  }, {
+    "@type" : "TRANSLATION_DETAILS",
+    "language" : {
+      "terminologyId" : {
+        "value" : "ISO_639-1"
+      },
+      "codeString" : "sv"
+    },
+    "author" : { },
+    "otherDetails" : { }
+  }, {
+    "@type" : "TRANSLATION_DETAILS",
+    "language" : {
+      "terminologyId" : {
+        "value" : "ISO_639-1"
+      },
+      "codeString" : "fi"
+    },
+    "author" : { },
+    "otherDetails" : { }
+  }, {
+    "@type" : "TRANSLATION_DETAILS",
+    "language" : {
+      "terminologyId" : {
+        "value" : "ISO_639-1"
+      },
+      "codeString" : "ko"
+    },
+    "author" : { },
+    "otherDetails" : { }
+  }, {
+    "@type" : "TRANSLATION_DETAILS",
+    "language" : {
+      "terminologyId" : {
+        "value" : "ISO_639-1"
+      },
+      "codeString" : "pt-br"
+    },
+    "author" : { },
+    "otherDetails" : { }
+  }, {
+    "@type" : "TRANSLATION_DETAILS",
+    "language" : {
+      "terminologyId" : {
+        "value" : "ISO_639-1"
+      },
+      "codeString" : "ar-sy"
+    },
+    "author" : { },
+    "otherDetails" : { }
+  }, {
+    "@type" : "TRANSLATION_DETAILS",
+    "language" : {
+      "terminologyId" : {
+        "value" : "ISO_639-1"
+      },
+      "codeString" : "zh-cn"
+    },
+    "author" : { },
+    "otherDetails" : { }
+  }, {
+    "@type" : "TRANSLATION_DETAILS",
+    "language" : {
+      "terminologyId" : {
+        "value" : "ISO_639-1"
+      },
+      "codeString" : "es"
+    },
+    "author" : { },
+    "otherDetails" : { }
+  }, {
+    "@type" : "TRANSLATION_DETAILS",
+    "language" : {
+      "terminologyId" : {
+        "value" : "ISO_639-1"
+      },
+      "codeString" : "es-ar"
+    },
+    "author" : { },
+    "otherDetails" : { }
+  }, {
+    "@type" : "TRANSLATION_DETAILS",
+    "language" : {
+      "terminologyId" : {
+        "value" : "ISO_639-1"
+      },
+      "codeString" : "nb"
+    },
+    "author" : { },
+    "otherDetails" : { }
+  }, {
+    "@type" : "TRANSLATION_DETAILS",
+    "language" : {
+      "terminologyId" : {
+        "value" : "ISO_639-1"
+      },
+      "codeString" : "ja"
+    },
+    "author" : { },
+    "otherDetails" : { }
+  }, {
+    "@type" : "TRANSLATION_DETAILS",
+    "language" : {
+      "terminologyId" : {
+        "value" : "ISO_639-1"
+      },
+      "codeString" : "fa"
+    },
+    "author" : { },
+    "otherDetails" : { }
+  }, {
+    "@type" : "TRANSLATION_DETAILS",
+    "language" : {
+      "terminologyId" : {
+        "value" : "ISO_639-1"
+      },
+      "codeString" : "nl"
+    },
+    "author" : { },
+    "otherDetails" : { }
+  } ]
+}
