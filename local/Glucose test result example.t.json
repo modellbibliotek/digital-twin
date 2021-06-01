@@ -22,10 +22,10 @@
       "original_namespace" : "",
       "original_publisher" : "",
       "custodian_namespace" : "",
-      "sem_ver" : "1.0.0",
+      "sem_ver" : "2.0.0",
       "build_uid" : "515be912-f4cc-4c7b-bb1d-562b2b19ef8c",
       "original_language" : "ISO_639-1::en",
-      "MD5-CAM-1.0.1" : "cfa3c43dd576d47f4ad7057046aacde1",
+      "MD5-CAM-1.0.1" : "397643388cd775d766a5a043d39c831f",
       "PARENT:MD5-CAM-1.0.1" : "6FF739561BD390420231096ACAD27FC3"
     },
     "details" : {
@@ -258,76 +258,6 @@
               } ]
             } ],
             "attributeTuples" : [ ]
-          }, {
-            "@type" : "C_COMPLEX_OBJECT",
-            "rmTypeName" : "EVENT",
-            "nodeId" : "at0002.2",
-            "attributes" : [ {
-              "@type" : "C_ATTRIBUTE",
-              "rmAttributeName" : "data",
-              "children" : [ {
-                "@type" : "C_COMPLEX_OBJECT",
-                "rmTypeName" : "ITEM_TREE",
-                "nodeId" : "at0003",
-                "attributes" : [ {
-                  "@type" : "C_ATTRIBUTE",
-                  "rmAttributeName" : "items",
-                  "children" : [ {
-                    "@type" : "C_COMPLEX_OBJECT",
-                    "rmTypeName" : "ELEMENT",
-                    "nodeId" : "at0005.2",
-                    "attributes" : [ {
-                      "@type" : "C_ATTRIBUTE",
-                      "rmAttributeName" : "value",
-                      "children" : [ {
-                        "@type" : "C_COMPLEX_OBJECT",
-                        "rmTypeName" : "DV_CODED_TEXT",
-                        "occurrences" : "0..1",
-                        "attributes" : [ {
-                          "@type" : "C_ATTRIBUTE",
-                          "rmAttributeName" : "defining_code",
-                          "existence" : "0..1",
-                          "children" : [ {
-                            "@type" : "C_TERMINOLOGY_CODE",
-                            "terminologyId" : {
-                              "value" : "SNOMED-CT"
-                            },
-                            "constraint" : [ ],
-                            "includedExternalTerminologyCodes" : [ {
-                              "terminologyId" : "SNOMED-CT",
-                              "code" : "113076002",
-                              "value" : "Glucose tolerance test (procedure)"
-                            } ]
-                          } ]
-                        } ],
-                        "attributeTuples" : [ ]
-                      } ]
-                    } ],
-                    "attributeTuples" : [ ]
-                  }, {
-                    "@type" : "C_ARCHETYPE_ROOT",
-                    "rmTypeName" : "CLUSTER",
-                    "occurrences" : "0..1",
-                    "nodeId" : "at0097.4",
-                    "attributes" : [ ],
-                    "attributeTuples" : [ ],
-                    "archetypeRef" : "openEHR-EHR-CLUSTER.ovl-laboratory_test_analyte-004.v1",
-                    "referenceType" : "archetypeOverlay"
-                  }, {
-                    "@type" : "C_ARCHETYPE_ROOT",
-                    "rmTypeName" : "CLUSTER",
-                    "occurrences" : "0..1",
-                    "nodeId" : "at0065.1",
-                    "attributes" : [ ],
-                    "attributeTuples" : [ ],
-                    "archetypeRef" : "openEHR-EHR-CLUSTER.ovl-specimen-001.v1",
-                    "referenceType" : "archetypeOverlay"
-                  } ]
-                } ],
-                "attributeTuples" : [ ]
-              } ]
-            } ],
-            "attributeTuples" : [ ]
           } ]
         } ],
         "attributeTuples" : [ ]
@@ -374,12 +304,6 @@
           "code" : "at0002.1",
           "text" : "Baseline blood glucose, OGTT",
           "description" : "إحدى الوقائع"
-        },
-        "at0002.2" : {
-          "@type" : "ARCHETYPE_TERM",
-          "code" : "at0002.1",
-          "text" : "Baseline blood glucose, OGTT (2)",
-          "description" : "إحدى الوقائع"
         }
       },
       "en" : {
@@ -393,12 +317,6 @@
           "@type" : "ARCHETYPE_TERM",
           "code" : "at0002.1",
           "text" : "Blood glucose",
-          "description" : "Default, unspecified point in time or interval event which may be explicitly defined in a template or at run-time."
-        },
-        "at0002.2" : {
-          "@type" : "ARCHETYPE_TERM",
-          "code" : "at0002.2",
-          "text" : "HbA1c result",
           "description" : "Default, unspecified point in time or interval event which may be explicitly defined in a template or at run-time."
         }
       },
@@ -414,12 +332,6 @@
           "code" : "at0002.1",
           "text" : "Baseline blood glucose, OGTT",
           "description" : "Standard, uspesifisert tidspunkt eller tidsintervall som kan defineres mer eksplisitt i en templat eller i en applikasjon."
-        },
-        "at0002.2" : {
-          "@type" : "ARCHETYPE_TERM",
-          "code" : "at0002.1",
-          "text" : "Baseline blood glucose, OGTT (2)",
-          "description" : "Standard, uspesifisert tidspunkt eller tidsintervall som kan defineres mer eksplisitt i en templat eller i en applikasjon."
         }
       },
       "zh-cn" : {
@@ -433,12 +345,6 @@
           "@type" : "ARCHETYPE_TERM",
           "code" : "at0002.1",
           "text" : "Baseline blood glucose, OGTT",
-          "description" : "可以在模板之中或者在运行时加以明确定义的，默认的，未明示的时间点或时间区间事件。"
-        },
-        "at0002.2" : {
-          "@type" : "ARCHETYPE_TERM",
-          "code" : "at0002.1",
-          "text" : "Baseline blood glucose, OGTT (2)",
           "description" : "可以在模板之中或者在运行时加以明确定义的，默认的，未明示的时间点或时间区间事件。"
         }
       },
@@ -454,12 +360,6 @@
           "code" : "at0002.1",
           "text" : "Baseline blood glucose, OGTT",
           "description" : "Jeder Zeitpunkt oder jedes Intervall, das in einem Template oder zur Laufzeit definiert werden kann."
-        },
-        "at0002.2" : {
-          "@type" : "ARCHETYPE_TERM",
-          "code" : "at0002.1",
-          "text" : "Baseline blood glucose, OGTT (2)",
-          "description" : "Jeder Zeitpunkt oder jedes Intervall, das in einem Template oder zur Laufzeit definiert werden kann."
         }
       },
       "it" : {
@@ -473,12 +373,6 @@
           "@type" : "ARCHETYPE_TERM",
           "code" : "at0002.1",
           "text" : "Baseline blood glucose, OGTT",
-          "description" : "Predefinito, non specificato istante o intervallo di tempo, che può essere esplicitamente dettagliato in un template o in esecuzione (tempo reale)"
-        },
-        "at0002.2" : {
-          "@type" : "ARCHETYPE_TERM",
-          "code" : "at0002.1",
-          "text" : "Baseline blood glucose, OGTT (2)",
           "description" : "Predefinito, non specificato istante o intervallo di tempo, che può essere esplicitamente dettagliato in un template o in esecuzione (tempo reale)"
         }
       },
@@ -494,12 +388,6 @@
           "code" : "at0002.1",
           "text" : "Baseline blood glucose, OGTT",
           "description" : "*Default, unspecified point in time or interval event which may be explicitly defined in a template or at run-time.(en)"
-        },
-        "at0002.2" : {
-          "@type" : "ARCHETYPE_TERM",
-          "code" : "at0002.1",
-          "text" : "Baseline blood glucose, OGTT (2)",
-          "description" : "*Default, unspecified point in time or interval event which may be explicitly defined in a template or at run-time.(en)"
         }
       },
       "sv" : {
@@ -513,12 +401,6 @@
           "@type" : "ARCHETYPE_TERM",
           "code" : "at0002.1",
           "text" : "Baseline blood glucose, OGTT",
-          "description" : "Ospecificerad standardhändelse vid en tidpunkt eller inom ett tidsintervall som explicit kan definieras i en mall eller genereras automatiskt av vissa IT-system."
-        },
-        "at0002.2" : {
-          "@type" : "ARCHETYPE_TERM",
-          "code" : "at0002.1",
-          "text" : "Baseline blood glucose, OGTT (2)",
           "description" : "Ospecificerad standardhändelse vid en tidpunkt eller inom ett tidsintervall som explicit kan definieras i en mall eller genereras automatiskt av vissa IT-system."
         }
       }
@@ -870,6 +752,14 @@
                     "terminologyId" : "SNOMED-CT",
                     "code" : "271061004",
                     "value" : "Random blood glucose measurement (procedure)"
+                  }, {
+                    "terminologyId" : "SNOMED-CT",
+                    "code" : "167095005",
+                    "value" : "Plasma random glucose measurement (procedure)"
+                  }, {
+                    "terminologyId" : "SNOMED-CT",
+                    "code" : "439926003",
+                    "value" : "Ambulatory continuous glucose monitoring of interstitial tissue fluid (procedure)"
                   } ]
                 } ]
               } ],
