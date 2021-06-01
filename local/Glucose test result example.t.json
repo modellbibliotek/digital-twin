@@ -22,10 +22,10 @@
       "original_namespace" : "",
       "original_publisher" : "",
       "custodian_namespace" : "",
-      "sem_ver" : "2.0.0",
+      "sem_ver" : "3.0.0",
       "build_uid" : "f445c5d1-3f86-47b2-9778-dd1038be7c4f",
       "original_language" : "ISO_639-1::en",
-      "MD5-CAM-1.0.1" : "4901f654da03650657043787488313f0",
+      "MD5-CAM-1.0.1" : "144a31024ae998f4fe01f3e455f7f8f3",
       "PARENT:MD5-CAM-1.0.1" : "6FF739561BD390420231096ACAD27FC3"
     },
     "details" : {
@@ -247,15 +247,6 @@
                     "@type" : "C_ARCHETYPE_ROOT",
                     "rmTypeName" : "CLUSTER",
                     "occurrences" : "0..1",
-                    "nodeId" : "at0097.2",
-                    "attributes" : [ ],
-                    "attributeTuples" : [ ],
-                    "archetypeRef" : "openEHR-EHR-CLUSTER.ovl-laboratory_test_analyte-002.v1",
-                    "referenceType" : "archetypeOverlay"
-                  }, {
-                    "@type" : "C_ARCHETYPE_ROOT",
-                    "rmTypeName" : "CLUSTER",
-                    "occurrences" : "0..1",
                     "nodeId" : "at0065.2",
                     "attributes" : [ ],
                     "attributeTuples" : [ ],
@@ -313,6 +304,24 @@
                       } ]
                     } ],
                     "attributeTuples" : [ ]
+                  }, {
+                    "@type" : "C_ARCHETYPE_ROOT",
+                    "rmTypeName" : "CLUSTER",
+                    "occurrences" : "0..1",
+                    "nodeId" : "at0097.4",
+                    "attributes" : [ ],
+                    "attributeTuples" : [ ],
+                    "archetypeRef" : "openEHR-EHR-CLUSTER.ovl-laboratory_test_analyte-004.v1",
+                    "referenceType" : "archetypeOverlay"
+                  }, {
+                    "@type" : "C_ARCHETYPE_ROOT",
+                    "rmTypeName" : "CLUSTER",
+                    "occurrences" : "0..1",
+                    "nodeId" : "at0065.1",
+                    "attributes" : [ ],
+                    "attributeTuples" : [ ],
+                    "archetypeRef" : "openEHR-EHR-CLUSTER.ovl-specimen-001.v1",
+                    "referenceType" : "archetypeOverlay"
                   } ]
                 } ],
                 "attributeTuples" : [ ]
@@ -345,8 +354,8 @@
         },
         "at0002.2" : {
           "@type" : "ARCHETYPE_TERM",
-          "code" : "at0002.2",
-          "text" : "2h blood glucose, OGTT",
+          "code" : "at0002.1",
+          "text" : "Baseline blood glucose, OGTT (2)",
           "description" : "إحدى الوقائع"
         }
       },
@@ -354,7 +363,7 @@
         "at0000.1" : {
           "@type" : "ARCHETYPE_TERM",
           "code" : "at0000.1",
-          "text" : "Laboratory test result example",
+          "text" : "Glucose test result",
           "description" : "The result, including findings and the laboratory's interpretation, of an investigation performed on specimens collected from an individual or related to that individual."
         },
         "at0002.1" : {
@@ -366,7 +375,7 @@
         "at0002.2" : {
           "@type" : "ARCHETYPE_TERM",
           "code" : "at0002.2",
-          "text" : "2h blood glucose, OGTT",
+          "text" : "HbA1c result",
           "description" : "Default, unspecified point in time or interval event which may be explicitly defined in a template or at run-time."
         }
       },
@@ -385,8 +394,8 @@
         },
         "at0002.2" : {
           "@type" : "ARCHETYPE_TERM",
-          "code" : "at0002.2",
-          "text" : "2h blood glucose, OGTT",
+          "code" : "at0002.1",
+          "text" : "Baseline blood glucose, OGTT (2)",
           "description" : "Standard, uspesifisert tidspunkt eller tidsintervall som kan defineres mer eksplisitt i en templat eller i en applikasjon."
         }
       },
@@ -405,8 +414,8 @@
         },
         "at0002.2" : {
           "@type" : "ARCHETYPE_TERM",
-          "code" : "at0002.2",
-          "text" : "2h blood glucose, OGTT",
+          "code" : "at0002.1",
+          "text" : "Baseline blood glucose, OGTT (2)",
           "description" : "可以在模板之中或者在运行时加以明确定义的，默认的，未明示的时间点或时间区间事件。"
         }
       },
@@ -425,8 +434,8 @@
         },
         "at0002.2" : {
           "@type" : "ARCHETYPE_TERM",
-          "code" : "at0002.2",
-          "text" : "2h blood glucose, OGTT",
+          "code" : "at0002.1",
+          "text" : "Baseline blood glucose, OGTT (2)",
           "description" : "Jeder Zeitpunkt oder jedes Intervall, das in einem Template oder zur Laufzeit definiert werden kann."
         }
       },
@@ -445,8 +454,8 @@
         },
         "at0002.2" : {
           "@type" : "ARCHETYPE_TERM",
-          "code" : "at0002.2",
-          "text" : "2h blood glucose, OGTT",
+          "code" : "at0002.1",
+          "text" : "Baseline blood glucose, OGTT (2)",
           "description" : "Predefinito, non specificato istante o intervallo di tempo, che può essere esplicitamente dettagliato in un template o in esecuzione (tempo reale)"
         }
       },
@@ -465,8 +474,8 @@
         },
         "at0002.2" : {
           "@type" : "ARCHETYPE_TERM",
-          "code" : "at0002.2",
-          "text" : "2h blood glucose, OGTT",
+          "code" : "at0002.1",
+          "text" : "Baseline blood glucose, OGTT (2)",
           "description" : "*Default, unspecified point in time or interval event which may be explicitly defined in a template or at run-time.(en)"
         }
       },
@@ -485,8 +494,8 @@
         },
         "at0002.2" : {
           "@type" : "ARCHETYPE_TERM",
-          "code" : "at0002.2",
-          "text" : "2h blood glucose, OGTT",
+          "code" : "at0002.1",
+          "text" : "Baseline blood glucose, OGTT (2)",
           "description" : "Ospecificerad standardhändelse vid en tidpunkt eller inom ett tidsintervall som explicit kan definieras i en mall eller genereras automatiskt av vissa IT-system."
         }
       }
@@ -856,7 +865,7 @@
             "children" : [ {
               "@type" : "C_COMPLEX_OBJECT",
               "rmTypeName" : "DV_QUANTITY",
-              "occurrences" : "0..1",
+              "occurrences" : "1..1",
               "attributes" : [ ],
               "attributeTuples" : [ {
                 "@type" : "C_ATTRIBUTE_TUPLE",
@@ -873,9 +882,11 @@
                   "@type" : "C_PRIMITIVE_TUPLE",
                   "members" : [ {
                     "@type" : "C_STRING",
+                    "rmTypeName" : "STRING",
                     "constraint" : [ "mg/dl" ]
                   }, {
                     "@type" : "C_REAL",
+                    "rmTypeName" : "REAL",
                     "constraint" : [ {
                       "lower" : 0.0,
                       "lowerIncluded" : true,
@@ -888,9 +899,11 @@
                   "@type" : "C_PRIMITIVE_TUPLE",
                   "members" : [ {
                     "@type" : "C_STRING",
+                    "rmTypeName" : "STRING",
                     "constraint" : [ "mmol/L" ]
                   }, {
                     "@type" : "C_REAL",
+                    "rmTypeName" : "REAL",
                     "constraint" : [ {
                       "lower" : 0.0,
                       "lowerIncluded" : true,
@@ -1048,6 +1061,374 @@
         "email" : "joost.holslag@nedap.com"
       },
       "accreditation" : "MD",
+      "otherDetails" : { }
+    } ]
+  }, {
+    "@type" : "TEMPLATE_OVERLAY",
+    "uid" : "4f4d5daf-b6b7-475f-ae49-66b3c5003e6f",
+    "description" : {
+      "@type" : "RESOURCE_DESCRIPTION",
+      "originalAuthor" : { },
+      "otherContributors" : [ ],
+      "ipAcknowledgements" : { },
+      "references" : { },
+      "conversionDetails" : { },
+      "otherDetails" : {
+        "PARENT:MD5-CAM-1.0.1" : "0A48CEA5CFCABE46203C50BDC1AA6760"
+      },
+      "details" : {
+        "de" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "de"
+          },
+          "purpose" : "Zur Dokumentation einer zu untersuchenden physischen Probe, Untersuchung oder Analyse, die von einer Person gesammelt wurde oder sich auf eine Person bezieht.",
+          "keywords" : [ "Probe", "Laborprobe", "Stichprobe", "Sammlung", "Probenentnahme", "Biopsy", "Gewebe", "Zytologie", "Mikrobiologie", "Pathologie", "Histopathologie", "Histologie", "Labor", "Flüssigkeit", "Abstrich", "Blut", "Exsudat", "Serum", "Plasma", "Urin", "Speichel", "Sekret", "Synovia", "Lymphflüssigkeit", "Kot", "Fäzes", "Stuhl", "Aszites", "Speien", "Abstrich", "Brustmilch", "Eiter", "Drainageflüssigkeit", "Knochenmark", "Kultur", "Kratzen", "Aspirieren" ],
+          "use" : "Zur Dokumentation einer zu untersuchenden physischen Probe, Untersuchung oder Analyse, die von einer Person gesammelt wurde oder sich auf eine Person bezieht.\r\n\r\nDieser Archetyp wurde speziell für die drei unten aufgeführten Anwendungsbereiche entwickelt, kann aber auch innerhalb anderer ENTRY oder Cluster Archetypen verwendet werden, sofern dies klinisch sinnvoll ist.\r\n- Innerhalb eines INSTRUCTION-Archetyps, um eine zu entnehmende Probe zu beschreiben, oder um ein Exemplar zu beschreiben, das einer Labor-Serviceanfrage beigefügt ist.\r\n- Innerhalb eines ACTION-Archetyps zur Beschreibung der Probensammlung oder zum Testen in einer Laborumgebung.\r\n- Innerhalb eines OBSERVATION-Archetyps zur Beschreibung einer Probe, über die berichtet wird.\r\n\r\nDer Detaillierungsgrad dieses Archetyps ist den derzeitigen Praktiken in vielen Laboren weit voraus. Der Archetyp ist für die Verwendung in beiden Fällen vorgesehen: Fällen, in denen minimale Details zur Vorbereitung und Unterteilung von Proben erforderlich sind.\r\n\r\nStammt die Probe aus einer anderen als der in der Patientenakte angegebenen Informationsquelle (z. B. Einzel-, Tier- oder Umweltprobe), sollte im OBSERVATION.laboratory_test_result deutlich die Angabe \"Betreffende Daten\" vermerkt werden.\r\n\r\nDie Semantik mehrerer Elemente dieses Archetyps, kann sich, basierend auf dem vom Container-Archetyp bereitgestellten Kontext, ändern. Beispielsweise ist das Element \"Methode der Probenentnahme\" im Kontext eines INSTRUCTION-Archetyps die angeforderte Erfassungsmethode, während das gleiche Element im Kontext eines ACTION-Archetyps im Status 'Abgeschlossen' die tatsächliche Erfassungsmethode ist.\r\n\r\nDieser Archetyp soll durch andere CLUSTER-Archetypen für Konzepte wie Probenbehälter, Probenvorbereitung sowie Probentransport und -lagerung ergänzt werden.\r\n\r\nDieser Archetyp kann zusammen mit dem Archetyp \"Probenbehälter\" auf zwei Arten verwendet werden: \"Probenbehälter\" in \"Probe\" verschachtelt (z.B. wenn eine venöse Blutprobe in zwei Röhrchen Behälter aufgeteilt wird oder ein ganzer Dickdarm in drei Behälter aufgeteilt wird). Oder als 'Probe' in 'Probenbehälter' verschachtelt (z.B. wenn ein Eimer Formalin einen Abschnitt Dickdarm und einen Mastdarm enthält oder ein Gefäß fünf einzeln markierte Mole enthält).\r\n\r\nDas Wort \"Entnahme\", das in diesem Archetyp verwendet wird, bezieht sich immer auf die Handlung, die Probe direkt von der Person zu erhalten, nicht auf den Transport der Probe, nachdem sie von der Person entfernt wurde.",
+          "misuse" : "Nicht zur Erfassung von Informationen über Proben, die sich nicht auf eine bestimmte Person beziehen. Zum Beispiel für routinemäßige Wasserproben aus einem Wasserwerk oder für Stichproben aus Einrichtungen der Lebensmittelproduktion.",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "sv" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "sv"
+          },
+          "purpose" : "Att registrera detaljer om ett fysiskt provmaterial som tagits från eller relaterat till en individ för undersökning eller analys.",
+          "keywords" : [ "provmaterial", "laboratorium", "prov", "provtagning", "biopsi", "kroppsvävnad", "cytologi", "microbiologi", "pathologi", "histopathologi", "histologi", "labb", "vätska", "utstryk", "blod", "exudat", "serum", "plasma", "urin", "saliv", "sekret", "cysta", "lymfa", "avföring", "ascites", "hostar upp", "kompress", "bröstmjölk", "pus", "var", "dränagevätska", "benmärg", "mikroorganism", "skrapning", "aspirat", "venesektion", "test", "cerebrospinalvätska", "pleuravätska" ],
+          "use" : "Används för att registrera detaljer om ett fysiskt provmaterial som tagits från eller relaterat till en individ för undersökning eller analys.\r\n\r\nDenna CLUSTER-arketyp är utformad för användning i de tre huvudkontexterna som beskrivs nedan:\r\n- Inom INSTRUCTION.service_request eller annan laboratorierelaterad INSTRUCTION-arketyp för att beskriva ett provmaterial som ska tas eller för att beskriva ett prov som åtföljer en begäran om laboratorietjänst.\r\n- Inom en laboratorierelaterad ACTION-arketyp för att beskriva provtagning eller provtaget material.\r\n- Inom OBSERVATION.laboratory_test_result eller annan laboratorierelaterad OBSERVATION-arketyp för att beskriva det provmaterial som ett laboratorieresultat bygger på.\r\nDessutom kan arketypen också användas inom andra ENTRY- eller CLUSTER-arketyper, där det är kliniskt lämpligt.\r\n\r\nDetaljnivån i denna arketyp överstiger sannolikt det som för närvarande registreras i de flesta laboratorier. Arketypen är avsedd att vara användbar för en enkel provtagning, samtidig provtagning av flera provmaterial utifrån en och samma beställning eller komplexa situationer där minsta detalj om beredning och uppdelning av ett provmaterial måste registreras.\r\n\r\nDe specifika betydelserna för flera element i den här arketypen kommer att ändras beroende på den överordnade arketyp där arketypen för provmaterial är infogad. Till exempel kommer elementet \"Provtagningsmetod\" i samband med en INSTRUCTION-arketyp att vara den erforderliga provtagningsmetoden, medan samma element i sammanhanget av en ACTION-arketyp i det \"färdiga\" tillståndet är den faktiska provtagningsmetod som används.\r\n\r\nDenna arketyp kompletteras av andra CLUSTER-arketyper för begrepp som exempelvis behållare, provberedning, transport och lagring av provmaterial.\r\n\r\nDen här arketypen har utformats för att användas med arketypen ”Specimen Container” på två huvudsakliga sätt:\r\n- ”Specimen Container” nästlad i ”Specimen” (till exempel när ett venöst blodprov är uppdelat mellan två injektionsflaskor eller om en hel tjocktarm är uppdelad i tre hinkar) eller\r\n- \"Specimen\" nästlad i \" Specimen Container\" (till exempel när en hink med formalin innehåller en sektion av tjocktarmen och en rektum).\r\n\r\nOBS! Termen \"provtagning\" i denna arketyp är avsedd att betyda aktiviteten för att samla in provmaterial från en individ. Det är inte avsett att representera transporten från individen till laboratoriet.\r\n",
+          "misuse" : "Ej avsedd att användas för att registrera information om provmaterial som inte är relaterat till en viss individ, såsom exempelvis rutinprover från vattenverk eller slumpmässiga prover från livsmedelsproduktion.",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "nb" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "nb"
+          },
+          "purpose" : "For å registrere detaljer om et fysisk prøvemateriale tatt fra eller relatert til et individ, for undersøkelse eller analyse.",
+          "keywords" : [ "laboratorium", "prøve", "prøvetaking", "laboratorieprøve", "prøvemateriale", "prøveeksemplar", "preparat", "prøvesamling", "biopsi", "vevsprøve", "celleprøve", "mikrobiologi", "patologi", "histologi", "lab", "væske", "utstryk", "blod", "sårvæske", "serum", "plasma", "urin", "spytt", "sekret", "leddvæske", "lymfe", "avføring", "ascites", "ekspektorat", "pensel", "morsmelk", "puss", "drensvæske", "beinmarg", "kultur", "avskrap", "aspirat" ],
+          "use" : "Brukes for å registrere detaljer om et fysisk prøvemateriale tatt fra eller relatert til et individ, for undersøkelse eller analyse.\r\n\r\nDenne CLUSTER-arketypen er laget for å brukes i de tre hovedsammenhengene beskrevet under:\r\n- Innenfor INSTRUCTION.service_request eller en annen laboratorierelatert INSTRUCTION-arketype for å beskrive et prøvemateriale som skal tas, eller for å beskrive prøvematerialet som ligger ved en laboratorierekvisisjon.\r\n- Innenfor en laboratorierelatert ACTION-arketype for å beskrive prøvetaking eller et prøvemateriale som er tatt\r\n- Innenfor OBSERVATION.laboratory_test_result eller en annen laboratorierelatert OBSERVATION-arketype for å beskrive prøvematerialet som ligger til grunn for et laboratorieresultat.\r\nI tillegg kan arketypen også brukes innenfor andre ENTRY- eller CLUSTER-arketyper, der det er klinisk passende.\r\n\r\nDet er sannsynlig at detaljnivået i denne arketypen overgår nåværende dataregistrering i de fleste laboratorier. Den er ment for å være brukbar både for en enkel prøvetaking, samtidig innhenting av flere prøvematerialer med én rekvisisjon, og komplekse situasjoner det det må registreres mye detaljer om preparering og oppdeling av et prøvemateriale.\r\n\r\nDe spesifikke betydningene av flere elementer i denne arketypen vil endre seg ut fra den overordnede arketypen som Prøvemateriale-arketypen settes inn i. For eksempel vil elementet \"Prøvetakingsmetode\" i kontekst av en INSTRUCTION-arketype være den rekvirerte prøvetakingsmetoden, mens det samme elementet i kontekst av en ACTION-arketype i tilstanden \"completed\" være den faktiske prøvetakingsmetoden som ble brukt.\r\n\r\nDenne arketypen kompletteres av andre CLUSTER-arketyper for konsepter som Prøvebeholder, Prøvepreparering, og transport og lagring av prøvemateriale.\r\n\r\nDenne arketypen kan brukes sammen med Prøvebeholder-arketypen på to hovedmåter:\r\n- Ved nøsting av \"Prøvebeholder\" inni \"Prøvemateriale\" (for eksempel når et vakuumglass med venøst blod fordeles på to mindre glass, eller en hel tykktarm deles på tre bøtter)\r\n- Med \"Prøvemateriale\" nøstet inni \"Prøvebeholder\" (for eksempel når en bøtte inneholder en seksjon av en tykktarm og en endetarm, eller et glass inneholder fem individuelt merkede føflekker)\r\n\r\nNB! Uttrykket \"prøvetaking\" er i denne arketypen ment å bety aktiviteten å ta en prøve fra et individ. Det er ikke ment å representere transporten fra individet til laboratoriet.",
+          "misuse" : "Ikke ment å brukes til å registrere informasjon om prøvemateriale som ikke er relaterte til et spesifikt individ, som for eksempel rutineprøver fra vannverk eller stikkprøver fra matvareproduksjon.",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "pt-br" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "pt-br"
+          },
+          "purpose" : "Para gravar detalhes de um espécime laboratorial. Será frequentemente usado em diferentes contextos, p.e, dentro de um arquétipo tipo Instruction para descrever os espécimes que devem ser obtidos, ou descrevendo o espécime que acompanha a solicitação laboratorial. Pode ocorre dentro de um arquétipo tipo Action, p.e., descrevendo espécimes retirados como parte de um procedimento cirúrgico. \r\n\r\nSerá finalmente utilizado dentro de um arquétipo de resultado laboratorial para descrever o espécime reportado.",
+          "keywords" : [ "espécime", "laboratório", "amostra", "coleta" ],
+          "use" : "Geralmente utilizado dentro de OBSERVATION. laboratory_test.v1 e outros arquétipos tipo Instruction ou Action relacionados.",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "en" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "en"
+          },
+          "purpose" : "To record details about a physical sample collected from, or related to, an individual for the purpose of investigation, examination or analysis.",
+          "keywords" : [ "specimen", "laboratory", "sample", "collection", "sampling", "biopsy", "tissue", "cytology", "microbiology", "pathology", "histopathology", "histology", "lab", "fluid", "smear", "blood", "exudate", "serum", "plasma", "urine", "saliva", "secretion", "synovial", "lymph", "feces", "faeces", "fæces", "ascites", "expectorate", "swab", "breast milk", "pus", "drain fluid", "bone marrow", "culture", "scraping", "aspirate", "phlebotomy", "test", "cerebrospinal fluid", "pleural fluid" ],
+          "use" : "Use to record details about a physical sample collected from, or related to, an individual for the purpose of investigation, examination or analysis.\r\n\r\nThis archetype has been specifically designed to be used in the following use cases:\r\n- within INSTRUCTION.service_request or another laboratory-related INSTRUCTION archetype to describe a specimen that is to be collected, or to describe a specimen that accompanies a laboratory service request; \r\n- within a laboratory-related ACTION archetype to describe specimen collection or a specimen that has been collected; or\r\n- within OBSERVATION.laboratory_test_result or other laboratory reporting OBSERVATION archetypes to describe the specimen being reported.\r\nIn addition this archetype can also be nested within other ENTRY or CLUSTER archetypes, where clinically appropriate.\r\n\r\nThe level of detail in this archetype is likely to exceed that currently collected in most laboratories. It has deliberately been designed to cater for a simple, single specimen collection; simultaneous collection of multiple specimens with a single request; and complex situations where it is required to record minute detail about the preparation and subdivision of a single specimen.\r\n\r\nThe exact semantics of several elements of this archetype may change based on the context provided by the parent archetype in which it is nested. For example, the 'Collection method' element in the context of an INSTRUCTION archetype is the requested collection method, while the same element in the context of an ACTION archetype in the 'completed' state is the actual collection method.\r\n\r\nOther complementary archetypes will carry the detail about 'Specimen container', 'Specimen preparation', and 'Specimen transport'.\r\n\r\nThis archetype has been designed to be used with the Specimen container archetype in two main ways: \r\n- 'Specimen container' nested within 'Specimen' (for example when a venous blood specimen is divided between two vials, or a whole large intestine is divided into three buckets); or\r\n- 'Specimen' nested within 'Specimen container' (for example when a bucket of formalin contains a section of large intestine and a rectum, or a jar contains five individually marked moles).\r\n\r\nPlease note: The term 'collection' used in this archetype always refers to the activity of obtaining a specimen from an individual. It is not intended to represent the transport of the specimen from the individual to the testing laboratory.",
+          "misuse" : "Not intended to be used for recording information about specimens that are not related to a specific individual. For example routine water samples from a waterworks, or spot samples from food production facilities.",
+          "copyright" : "© openEHR Foundation",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        },
+        "ar-sy" : {
+          "@type" : "RESOURCE_DESCRIPTION_ITEM",
+          "language" : {
+            "terminologyId" : {
+              "value" : "ISO_639-1"
+            },
+            "codeString" : "ar-sy"
+          },
+          "purpose" : "لتسجيل تفاصيل حول عينة بالمعمل. \r\nيستخدم غالبا في سياقات مختلفة, مثلا: في داخل نموذج (تعليمات) ليصف العينة التي ينبغي أخذها, أو يصف العينة المرافقة لطلب معملي. \r\nو قد يحدث ذلك في داخل نموذج (فعل), مثال: وصف العينات التي تم أخذها كجزء من إجراء طبي جراحي. \r\nو سيستخدم أخيرا في داخل نموذج نتيجة اختبار المعمل ليصف العينة التي يتم تقديم عينة حولها.",
+          "keywords" : [ "النموذج/العينة", "المعمل/المختبر", "العينة", "التجميع" ],
+          "use" : "يستخدم عادةً في داخل نموذج (ملاحظة. معمل) و النماذج الأخرى تعليمات و فعل المتعلقة بالمعمل.",
+          "copyright" : "© openEHR Foundation",
+          "originalResourceUri" : { },
+          "otherDetails" : { }
+        }
+      }
+    },
+    "annotations" : {
+      "@type" : "RESOURCE_ANNOTATIONS",
+      "documentation" : {
+        "ar-sy" : {
+          "/items[at0071]" : {
+            "fhir_mapping" : "*Specimen.collection.collector(en)"
+          },
+          "/items[at0070]" : {
+            "fhir_mapping" : "*Specimen.collection.collector(en)"
+          },
+          "/items[at0013]" : {
+            "fhir_mapping" : "*Specimen.collection.sourceSite(en)"
+          },
+          "/items[at0001]" : {
+            "fhir_mapping" : "*Specimen.accessionIdentifier(en)"
+          },
+          "/items[at0034]" : {
+            "fhir_mapping" : "*Specimen.receivedTime(en)"
+          },
+          "/items[at0027]" : {
+            "fhir_mappings" : "*Specimen.collection.quantity(en)"
+          },
+          "/items[at0007]" : {
+            "fhir_mapping" : "*Specimen.collection.method(en)"
+          },
+          "/items[at0029]" : {
+            "fhir_mapping" : "*Specimen.type(en)"
+          }
+        },
+        "en" : {
+          "/items[at0071]" : {
+            "fhir_mapping" : "Specimen.collection.collector"
+          },
+          "/items[at0070]" : {
+            "fhir_mapping" : "Specimen.collection.collector"
+          },
+          "/items[at0088]" : {
+            "fhir_mapping" : "Specimen.identifier"
+          },
+          "/items[at0013]" : {
+            "fhir_mapping" : "Specimen.collection.sourceSite"
+          },
+          "/items[at0001]" : {
+            "fhir_mapping" : "Specimen.accessionIdentifier"
+          },
+          "/items[at0034]" : {
+            "fhir_mapping" : "Specimen.receivedTime"
+          },
+          "/items[at0045]" : {
+            "fhir_mapping" : "Specimen.note"
+          },
+          "/items[at0027]" : {
+            "fhir_mapping" : "Specimen.collection.quantity"
+          },
+          "/items[at0007]" : {
+            "fhir_mapping" : "Specimen.collection.method"
+          },
+          "/items[at0029]" : {
+            "fhir_mapping" : "Specimen.type"
+          }
+        },
+        "pt-br" : { },
+        "nb" : { },
+        "de" : {
+          "/items[at0071]" : {
+            "fhir_mapping" : "Specimen.collection.collector"
+          },
+          "/items[at0070]" : {
+            "fhir_mapping" : "Specimen.collection.collector"
+          },
+          "/items[at0088]" : {
+            "fhir_mapping" : "Specimen.identifier"
+          },
+          "/items[at0013]" : {
+            "fhir_mapping" : "Specimen.collection.sourceSite"
+          },
+          "/items[at0001]" : {
+            "fhir_mapping" : "Specimen.accessionIdentifier"
+          },
+          "/items[at0034]" : {
+            "fhir_mapping" : "Specimen.receivedTime"
+          },
+          "/items[at0045]" : {
+            "fhir_mapping" : "Specimen.note"
+          },
+          "/items[at0027]" : {
+            "fhir_mapping" : "Specimen.collection.quantity"
+          },
+          "/items[at0007]" : {
+            "fhir_mapping" : "Specimen.collection.method"
+          },
+          "/items[at0029]" : {
+            "fhir_mapping" : "Specimen.type"
+          }
+        },
+        "sv" : {
+          "/items[at0027]" : {
+            "fhir_mapping" : "Specimen.collection.quantity"
+          }
+        }
+      }
+    },
+    "parentArchetypeId" : "openEHR-EHR-CLUSTER.specimen.v1",
+    "differential" : true,
+    "archetypeId" : {
+      "@type" : "ARCHETYPE_HRID",
+      "value" : "openEHR-EHR-CLUSTER.ovl-specimen-004.v1"
+    },
+    "definition" : {
+      "@type" : "C_COMPLEX_OBJECT",
+      "rmTypeName" : "CLUSTER",
+      "nodeId" : "at0000.1",
+      "attributes" : [ {
+        "@type" : "C_ATTRIBUTE",
+        "rmAttributeName" : "items",
+        "children" : [ {
+          "@type" : "C_COMPLEX_OBJECT",
+          "rmTypeName" : "ELEMENT",
+          "nodeId" : "at0029.1",
+          "attributes" : [ {
+            "@type" : "C_ATTRIBUTE",
+            "rmAttributeName" : "value",
+            "children" : [ {
+              "@type" : "C_COMPLEX_OBJECT",
+              "rmTypeName" : "DV_CODED_TEXT",
+              "occurrences" : "1..1",
+              "attributes" : [ {
+                "@type" : "C_ATTRIBUTE",
+                "rmAttributeName" : "defining_code",
+                "children" : [ {
+                  "@type" : "C_TERMINOLOGY_CODE",
+                  "rmTypeName" : "TERMINOLOGY_CODE",
+                  "terminologyId" : {
+                    "value" : "SNOMED-CT"
+                  },
+                  "constraint" : [ ],
+                  "selectedTerminologies" : [ "SNOMED-CT" ],
+                  "includedExternalTerminologyCodes" : [ {
+                    "terminologyId" : "SNOMED-CT",
+                    "code" : "119297000",
+                    "value" : "Blood specimen (specimen)"
+                  }, {
+                    "terminologyId" : "SNOMED-CT",
+                    "code" : "122554006",
+                    "value" : "Capillary blood specimen (specimen)"
+                  }, {
+                    "terminologyId" : "SNOMED-CT",
+                    "code" : "119364003",
+                    "value" : "Serum specimen (specimen)"
+                  }, {
+                    "terminologyId" : "SNOMED-CT",
+                    "code" : "119361006",
+                    "value" : "Plasma specimen (specimen)"
+                  } ]
+                } ]
+              } ],
+              "attributeTuples" : [ ]
+            } ]
+          } ],
+          "attributeTuples" : [ ]
+        } ]
+      } ],
+      "attributeTuples" : [ ]
+    },
+    "terminology" : {
+      "@type" : "ARCHETYPE_TERMINOLOGY",
+      "conceptCode" : "at0000",
+      "termDefinitions" : {
+        "ar-sy" : { },
+        "en" : { },
+        "pt-br" : { },
+        "nb" : { },
+        "de" : { },
+        "sv" : { }
+      },
+      "termBindings" : { },
+      "terminologyExtracts" : { },
+      "valueSets" : { }
+    },
+    "adlVersion" : "1.4",
+    "buildUid" : "e00adbff-da44-464d-8568-4dd591496a3d",
+    "rmName" : "openehr",
+    "rmRelease" : "1.1.0",
+    "generated" : true,
+    "otherMetaData" : { },
+    "originalLanguage" : {
+      "terminologyId" : {
+        "value" : "ISO_639-1"
+      },
+      "codeString" : "en"
+    },
+    "translations" : [ {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "de"
+      },
+      "author" : {
+        "name" : "Sarah Ballout, Antje Wulff",
+        "organisation" : "MHH-Hannover, PLRI for Medical Informatics Medical School Hannover and TU Braunschweig",
+        "email" : "Ballout.Sarah@mh-hannover.de, wulff.antje@mh-hannover.de"
+      },
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "sv"
+      },
+      "author" : {
+        "name" : "Linda Aulin",
+        "organisation" : "Region Stockholm",
+        "email" : "linda.aulin@sll.se"
+      },
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "nb"
+      },
+      "author" : {
+        "name" : "Kristian Berg, Gro-Hilde Ulriksen, Line Silsand, Silje Ljosland Bakke",
+        "organisation" : "Universitetssykehuset Nord-Norge, Helse Vest IKT AS",
+        "email" : "kristian.berg@unn.no, gro-hilde.ulriksen@unn.no, line.silsand@unn.no, silje.ljosland.bakke@helse-vest-ikt.no"
+      },
+      "accreditation" : "*",
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "pt-br"
+      },
+      "author" : {
+        "name" : "Adriana Kitajima, Débora Farage, Fernanda Maia, Laíse Figueiredo, Marivan Abrahão",
+        "organisation" : "Core Consulting",
+        "email" : "contato@coreconsulting.com.br"
+      },
+      "accreditation" : "Hospital Alemão Oswaldo Cruz (HAOC)",
+      "otherDetails" : { }
+    }, {
+      "@type" : "TRANSLATION_DETAILS",
+      "language" : {
+        "terminologyId" : {
+          "value" : "ISO_639-1"
+        },
+        "codeString" : "ar-sy"
+      },
+      "author" : {
+        "name" : "Mona Saleh"
+      },
       "otherDetails" : { }
     } ]
   }, {
@@ -1339,7 +1720,7 @@
     "differential" : true,
     "archetypeId" : {
       "@type" : "ARCHETYPE_HRID",
-      "value" : "openEHR-EHR-CLUSTER.ovl-laboratory_test_analyte-002.v1"
+      "value" : "openEHR-EHR-CLUSTER.ovl-laboratory_test_analyte-004.v1"
     },
     "definition" : {
       "@type" : "C_COMPLEX_OBJECT",
@@ -1785,7 +2166,7 @@
     "differential" : true,
     "archetypeId" : {
       "@type" : "ARCHETYPE_HRID",
-      "value" : "openEHR-EHR-CLUSTER.ovl-specimen-004.v1"
+      "value" : "openEHR-EHR-CLUSTER.ovl-specimen-001.v1"
     },
     "definition" : {
       "@type" : "C_COMPLEX_OBJECT",
