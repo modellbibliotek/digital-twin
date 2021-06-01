@@ -4,7 +4,8 @@ Tools:
 * List/browse archetypes (and template examples): https://ckm.openehr.org/ckm/
 * Create/edit templates (and if needed also create archetypes):https://tools.openehr.org/designer/
     * ...then export OPT (Operational template) to be used when you...
-*  Create GUI/forms and queries:
+* **Create GUI/forms and queries**: https://tools.better.care/sandbox/studio/login
+* Snomed CT browser: https://browser.ihtsdotools.org/
 
 
 Archetype/template links:
