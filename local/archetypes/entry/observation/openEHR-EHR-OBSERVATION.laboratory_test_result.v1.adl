@@ -1,8 +1,9 @@
-﻿archetype (adl_version=1.4; uid=90225e36-20a8-403a-8172-77e53b9990b2)
+archetype (adl_version=1.4; uid=90225e36-20a8-403a-8172-77e53b9990b2)
 	openEHR-EHR-OBSERVATION.laboratory_test_result.v1
 
 concept
-	[at0000]	-- Laboratory test result
+	[at0000]
+
 language
 	original_language = <[ISO_639-1::en]>
 	translations = <
@@ -62,17 +63,21 @@ language
 			accreditation = <"MD">
 		>
 	>
+
 description
 	original_author = <
+		["date"] = <"2015-07-20">
 		["name"] = <"Ian McNicoll">
 		["organisation"] = <"freshEHR Clinical Informatics">
 		["email"] = <"ian@freshehr.com">
-		["date"] = <"2015-07-20">
 	>
+	lifecycle_state = <"published">
+	other_contributors = <"Andreas Abildgaard, OUS, Norway","Yaser Abuhajjaj, United Arab Emirates","Marit Alice Venheim, Helse Vest IKT, Norway","Tomas Alme, DIPS ASA, Norway","Vebjørn Arntzen, Oslo University Hospital, Norway (openEHR Editor)","Koray Atalag, University of Auckland, New Zealand","Silje Ljosland Bakke, Nasjonal IKT HF, Norway (openEHR Editor)","Ryan Julius Banez, AC Health, Philippines","Marcos Barreto, Universidade Federal da Bahia, Brazil","Kristian Berg, Vestvågøy kommune - Fagutviklingsavdelingen, Norway","SB Bhattacharyya, Sudisa Consultancy Services, India","Sharmila Biswas, Dr Sharmila Biswas GP, Australia","Johan Bjerner, Fürst, Norway","Greg Burch, Tiny Medical Apps, United Kingdom","Fatemeh Chalabianloo, Helse Bergen, Norway","Doug Chesher, PaLMS, Australia","Bjørn Christensen, Helse Bergen HF, Norway","Stephen Chu, NEHTA, Australia (Editor)","Matthew Cordell, NEHTA, Australia","Lisbeth Dahlhaug, Helse Midt - Norge IT, Norway","Andre de Wolf, NeHTA, Australia","Gail Easterbrook, Flinders Medical Centre, Australia","Stig Erik Hegrestad, Helse Førde, Norway","David Evans, Queensland Health, Australia","David Fallas, Sysmex NZ Ltd, New Zealand","Shahla Foozonkhah, Iran ministry of health and education, Iran","Hildegard Franke, freshEHR Clinical Informatics Ltd., United Kingdom","Heath Frankel, Ocean Informatics, Australia","Frode Gilberg, PRIDOK AS, Norway","Rosane Gotardo, Systema Ltda., Brazil","Heather Grain, Llewelyn Grain Informatics, Australia","Grahame Grieve, Health Intersections Pyty Ltd, Australia (Editor)","Åshild Halvorsen, Helse Nord RHF, Norway","martin hanlon, Careworks, United Kingdom","Sam Heard, Ocean Informatics, Australia","Anca Heyd, DIPS ASA, Norway","Geir Hoff, Sykehuset Telemark HF, Norway","Evelyn Hovenga, EJSH Consulting, Australia","Silje Kaada, Helse-Bergen, Avdeling for immunologi og transfusjonsmedisin, Norway","Lars Morgan Karlsen, DIPS ASA, Norway","Mary Kelaher, NEHTA, Australia","Nils Kolstrup, Skansen Legekontor og Nasjonalt Senter for samhandling og telemedisin, Norway","Anne Kristin Strand, Sykehuspartner HF, Norway","Tomi Laptoš, Marand, Slovenia","Liv Laugen, Oslo universitetssykehus, Norway","Michael Legg, Michael Legg & associates, Australia","Sabine Leh, Haukeland University Hospital, Department of Pathology, Norway","Heather Leslie, Atomica Informatics, Australia (openEHR Editor)","Neranga Liyanaarachchi, Ministry of Health, Postgraduate Institute of Medicine, Sri Lanka","Zijian Li, China","Jan-Arne Ludvigsen, DIPS AS, Norway","Hallvard Lærum, Direktoratet for e-helse, Norway","Manisha Mantri, C-DAC, India","Siv Marie Lien, DIPS ASA, Norway","Ole Martin Sand, DIPS ASA, Norway","Mike Martyn, The Hobart Anaesthetic Group, Australia","James McClay, University of Nebraska Medical Center, United States","Andrew McIntyre, Medical-Objects, Australia","David McKillop, NEHTA, Australia","Hildegard McNicoll, freshEHR Clinical Informatics Ltd., United Kingdom","Ian McNicoll, freshEHR Clinical Informatics, United Kingdom (openEHR Editor)","Angela Merzweiler, University Hospital of Heidelberg, Germany","Paul Miller, SCIMP NHS Scotland, United Kingdom","Chris Mitchell, RACGP, Australia","Stewart Morrison, NEHTA, Australia","George Nikolaidis, Ergobyte Informatics S.A., Greece","Bjørn Næss, DIPS AS, Norway","Bjørn Odvar Eriksen, UNN, Norway","Masafumi Okada, University of Tokyo, Japan","Andrej Orel, Marand d.o.o., Slovenia","Michael Osborne, Mater Health Services, Australia","Vaclav Papez, University of West Bohemia, Czech Republic","Anne Pauline Anderssen, Helse Nord RHF, Norway","Ana Pereira, CINTESIS, CUF-Porto, Portugal","Vladimir Pizzo, Hospital Sírio Libanês, Brazil","Navin Ramachandran, NHS, United Kingdom","Lars Retterstøl, OUS, Norway","Jussara Rotzsch, Hospital Alemão Oswaldo Cruz, Brazil","David Rowed, VAMC Clinic, Australia (Editor)","Marcus vinicius de Régis, NUTES, Brazil","Mona Saleh (Translator)","Diogo Schmidt, UNISINOS, Brazil","Gro-Hilde Severinsen, Norwegian center for ehealthresearch, Norway","Anoop Shah, University College London, United Kingdom","Kyle Shore, Charm Health, Australia","Hildegunn Siv Aase, Helse Bergen, Norway","Niclas Skyttberg, Karolinska Institutet, Sweden","Matt Stibbs, Digi-M Ltd., United Kingdom","Iztok Stotl, UKCLJ, Slovenia","Norwegian Review Summary, Nasjonal IKT HF, Norway","Line Sæle, Nasjonal IKT HF, Norway","Sveinung Sørbye, UNN HF, Norway","Nyree Taylor, Ocean Informatics, Australia","Tesfay Teame, Folkehelseinstittutet, Norway","Rowan Thomas, St. Vincent's Hospital Melbourne, Australia","Michael Thompson, Queensland Health, Australia","Gordon Tomes, Australian Institute of Health and Welfare, Australia","Richard Townley-O'Neill, NEHTA, Australia","Katrin Troeltzsch, Nationales Centrum für Tumorerkrankungen (NCT); Universitätsklinikum Heidelberg, Germany","Torleif Trydal, Fürst AS, Norway","Gro-Hilde Ulriksen, Norwegian center for ehealthresearch, Norway","John Tore Valand, Helse Bergen, Norway (openEHR Editor)","Wouter Zanen, Eurotranplant, Netherlands","Lin Zhang, Taikang Insurance Group, China">
 	details = <
 		["de"] = <
 			language = <[ISO_639-1::de]>
 			purpose = <"Zur Dokumentation des Ergebnisses - einschließlich der Befunde und der Interpretation des Labors - einer Untersuchung, die an Proben durchgeführt wurde, die von einer Einzelperson stammen oder mit dieser Person zusammenhängen.">
+			keywords = <"Labor","Pathologie","Biochemie","Hämatologie","Mikrobiologie","Immunologie","Laboratorium","anatomisch","chemisch","klinisch","Immunpathologie","Zytologie","Histopathologie","Untersuchung","Biopsie","Probe","forensisch","genetisch bedingt","Labormedizin","Ergebnisse","Analyse">
 			use = <"Zur Dokumentation des Ergebnisses - einschließlich der Befunde und der Interpretation des Labors - einer Untersuchung, die an Proben durchgeführt wurde, die von einer Einzelperson stammen oder mit dieser Person zusammenhängen. Dies geschieht in der Regel in einem Labor, kann aber auch in anderen Bereichen, wie z.B. am Point of Care, durchgeführt werden. 
 
 Dieser Archetyp soll das Ergebnis einer erforderlichen Einzeluntersuchung abdecken, bei der die Probe(n) über ein Einzelverfahren gesammelt werden, und kann mehrere Ergebnisse zu Analyten oder andere Komponenten enthalten. Beispiele hierfür könnte das „Vollblutbild“ sein, das ein separates Analyseergebnis für die Zählung jedes Blutzelltyps liefert, oder „Nierenbiopsie nicht neoplastisch“, das Ergebnisse aus der Mikroskopie, Immunhistochemie und Elektronenmikroskopie liefern würde.
@@ -97,7 +102,6 @@ Werden vom Labor \"Reflextests\" durchgeführt, können diese gemäß den US/FHI
 
 
 ">
-			keywords = <"Labor", "Pathologie", "Biochemie", "Hämatologie", "Mikrobiologie", "Immunologie", "Laboratorium", "anatomisch", "chemisch", "klinisch", "Immunpathologie", "Zytologie", "Histopathologie", "Untersuchung", "Biopsie", "Probe", "forensisch", "genetisch bedingt", "Labormedizin", "Ergebnisse", "Analyse">
 			misuse = <"Nicht zur Dokumentation eines Autopsieberichts oder eines forensischen Berichts verwenden. Einzelne Proben, die bei einer Autopsie oder einem forensischen Bericht entnommen werden, können jedoch mit diesem Archetyp dargestellt werden. Für diese sind zusätzliche spezialisierte Archetypen erforderlich, um die Daten zu dokumentieren.
 
 Dieser Archetyp eignet sich zur Darstellung allgemeiner Labortestergebnisse, jedoch nicht für vollständige synoptische Berichte. Für diese sind zusätzliche spezialisierte Archetypen erforderlich, um die Daten zu dokumentieren.">
@@ -105,6 +109,7 @@ Dieser Archetyp eignet sich zur Darstellung allgemeiner Labortestergebnisse, jed
 		["sv"] = <
 			language = <[ISO_639-1::sv]>
 			purpose = <"För att registrera resultat, fynd och laboratoriets tolkning av en laboratorieundersökning utförd på provmaterial från en individ eller relaterad till individen.">
+			keywords = <"labb","patologi","biokemi","hematologi","mikrobiologi","immunologi","laboratorium","anatomisk","kemisk","klinisk","immunopatolog","cytologi","histopatologi","test","biopsi","prov","provmaterial","rättsmedicinsk","genetisk","laboratoriemedicin","resultat","analys">
 			use = <"Används för att registrera resultatet, inklusive fynd och laboratoriets tolkning, av en laboratorieundersökning utförd på provmaterial från en individ eller relaterad till individen. Detta görs vanligtvis i ett laboratorium, men kan göras i andra miljöer såsom patientcentrerad analys vid vårdplatsen.
 
 Denna arketyp är avsedd att täcka resultatet av en enda beställd undersökning där flera prov tas i ett enda förfarande och som kan innehålla flera analysresultat eller andra komponenter. 
@@ -129,7 +134,6 @@ Om laboratoriet ändrar analyser eller lägger till analyser som uppföljning ka
 3. Registrera de ändrade analyserna/tilläggsanalyserna i en ny instans av den här arketypen, men hänvisa till en ny beställning utöver den ursprungliga via \"Beställningsdetaljer\".
 
 ">
-			keywords = <"labb", "patologi", "biokemi", "hematologi", "mikrobiologi", "immunologi", "laboratorium", "anatomisk", "kemisk", "klinisk", "immunopatolog", "cytologi", "histopatologi", "test", "biopsi", "prov", "provmaterial", "rättsmedicinsk", "genetisk", "laboratoriemedicin", "resultat", "analys">
 			misuse = <"Bör inte användas för att lagra en sammanställning efter obduktion eller rättsmedicinsk undersökning, även om testresultat för vissa provmaterial som tagits vid en obduktion kan representeras i denna arketyp. För att skapa den verkliga obduktionen eller kriminaltekniska rapporten måste man använda specialiserade arketyper.
 
 Denna arketyp är lämplig för att representera allmänna laboratoriesvar, men är inte avsedd att täcka fullständiga synoptiska rapporter inom patologi. För dessa behövs också specialiserade arketyper.
@@ -138,6 +142,7 @@ Denna arketyp är lämplig för att representera allmänna laboratoriesvar, men 
 		["nb"] = <
 			language = <[ISO_639-1::nb]>
 			purpose = <"For å registrere resultat, funn og laboratoriets tolkning, av en laboratorieundersøkelse utført på prøvemateriale fra et individ eller relatert til individet.">
+			keywords = <"medisinsk biokjemi","medisinsk mikrobiologi","medisinsk genetikk","klinisk farmakologi","patologi","immunologi og transfusjonsmedisin","laboratorie","lab","anatomisk","prøve","rettsmedisinsk","laboratoriemedisin","generell kjemi","materiale","prøvemateriale","lokalisasjon","undersøkelse","analyse","metode (analysemetode)","laboratoriespesialitet","blodprøve","serum","plasma","fullblod","analytt","kapillærprøver","venøse prøver","arterielle prøver","prøvetaking","immunopatologi","cytologi","histopatologi","biopsi","preparat","immunhistokjemi","immuncytokjemi","molekylærgenetiske analyser","histologi","cytologi","cervixcytologi","obduksjon","flowcytometri","molekylær patologi","elektronmikroskopi","neuropatologi","frysesnitt","punksjonscytologi","makrobeskjæring","makroskopisk undersøkelse","mikrobiologi","bakteriologi","virologi","serologi","molekylærdiagnostikk","parasittologi","mykologi","protozologi","immunologi","medisinsk immunologi","transfusjonsmedisin","immunhematologi","transplantasjonsimmunologi","cellulær immunologi","ex vivo cellelaboratorium","hormonanalyser","endokrinologi","blodbank","blodkomponenter","hematologi","kjemisk","klinisk","kjemi","klinisk kjemi","klinisk biokjemi","metabolsk molekylærbiologi","homeostase og trombose","koagulasjon","klinisk farmakologi","farmakologi","doping analyser","klinisk fysiologi","toksikologi","rusmiddelanalyse","misbruksdiagnostikk","genetisk","genetikk","HTS-diagnostikk","genpaneler","farmakogenetikk","cancer cytogenetikk","preparat","rettsmedisinsk">
 			use = <"Brukes for å registrere resultat, funn og laboratoriets tolkning, av en laboratorieundersøkelse utført på prøvemateriale fra et individ eller relatert til individet. Dette utføres typisk i et laboratorium, men kan også gjøres i andre miljøer, som for eksempel ved pasientnær analysering.
 
 Denne arketypen er ment å dekke resultatet av én rekvirert undersøkelse der prøvene er tatt i én prosedyre, og som kan ha flere analyseresultater eller andre komponenter. Eksempler på dette kan være \"Differensialtelling av leukocytter\", som gir et separat resultat for antallet av hver type hvite blodceller, eller \"Nyrebiopsi ikke-neoplastisk\", som gir resultater fra mikroskopi, immunohistokjemi og elektronmikroskopi.
@@ -156,25 +161,15 @@ Der laboratoriet endrer analyser eller legger til analyser som oppfølging, kan 
 1. Registrer de endrede analysene/tilleggsanalysene innenfor samme instans av denne arketypen.
 2. Registrer de endrede analysene/tilleggsanalysene i en ny instans av denne arketypen, men referer til den opprinnelige rekvisisjonen ved hjelp av \"Rekvisisjonsdetaljer\".
 3. Registrer de endrede analysene/tilleggsanalysene i en ny instans av denne arketypen, men referer til en ny rekvisisjon i tillegg til den opprinnelige rekvisisjonen, ved hjelp av \"Rekvisisjonsdetaljer\".">
-			keywords = <"medisinsk biokjemi", "medisinsk mikrobiologi", "medisinsk genetikk", "klinisk farmakologi", "patologi", "immunologi og transfusjonsmedisin", "laboratorie", "lab", "anatomisk", "prøve", "rettsmedisinsk", "laboratoriemedisin", "generell kjemi", "materiale", "prøvemateriale", "lokalisasjon", "undersøkelse", "analyse", "metode (analysemetode)", "laboratoriespesialitet", "blodprøve", "serum", "plasma", "fullblod", "analytt", "kapillærprøver", "venøse prøver", "arterielle prøver", "prøvetaking", "immunopatologi", "cytologi", "histopatologi", "biopsi", "preparat", "immunhistokjemi", "immuncytokjemi", "molekylærgenetiske analyser", "histologi", "cytologi", "cervixcytologi", "obduksjon", "flowcytometri", "molekylær patologi", "elektronmikroskopi", "neuropatologi", "frysesnitt", "punksjonscytologi", "makrobeskjæring", "makroskopisk undersøkelse", "mikrobiologi", "bakteriologi", "virologi", "serologi", "molekylærdiagnostikk", "parasittologi", "mykologi", "protozologi", "immunologi", "medisinsk immunologi", "transfusjonsmedisin", "immunhematologi", "transplantasjonsimmunologi", "cellulær immunologi", "ex vivo cellelaboratorium", "hormonanalyser", "endokrinologi", "blodbank", "blodkomponenter", "hematologi", "kjemisk", "klinisk", "kjemi", "klinisk kjemi", "klinisk biokjemi", "metabolsk molekylærbiologi", "homeostase og trombose", "koagulasjon", "klinisk farmakologi", "farmakologi", "doping analyser", "klinisk fysiologi", "toksikologi", "rusmiddelanalyse", "misbruksdiagnostikk", "genetisk", "genetikk", "HTS-diagnostikk", "genpaneler", "farmakogenetikk", "cancer cytogenetikk", "preparat", "rettsmedisinsk">
 			misuse = <"Skal ikke brukes for å lagre en sammenstilling etter obduksjon eller rettsmedisinsk undersøkelse, selv om prøver av noen prøvematerialer som blir tatt i en obduksjon kan bli representert i denne arketypen. For å lage selve obduksjons- eller den rettsmedisinske rapporten må man bruke spesialiserte arketyper.
 
 Denne arketypen er passende for å representere generelle laboratoriesvar, men er ikke ment å dekke komplette sammendragsrapporter (\"synoptic reports\") innenfor patologi. For disse trengs det i tillegg spesialiserte arketyper.">
 		>
-		["ar-sy"] = <
-			language = <[ISO_639-1::ar-sy]>
-			purpose = <"لتسجيل نتيجة اختبار المعمل, و التي قد يتم استخدامها لتسجيل اختبار ذي قيمة واحدة, و عادة ما يتم بعد ذلك المزيد من التخصيص أو الوضع في قالب لتمثيل اختبار متعدد القيم أو رتل من الاختبارات.
-و يمثل هذا النموذج كوالد (أب) للتخصيصات الأخرى لاختبارات معملية أكثر تحديدا مثل الميكروبيولوجيا و الهيستوباثولوجيا.">
-			use = <"قد يستخدم لتسجيل نتيجة اختبار المعمل, و التي قد يتم استخدامها لتسجيل اختبار ذي قيمة واحدة, و عادة ما يتم بعد ذلك المزيد من التخصيص أو الوضع في قالب لتمثيل اختبار متعدد القيم أو رتل من الاختبارات.
-
-يتم بعد ذلك تقديم التقرير للطبيب السريري الذي قام بطلب الاختبار في سياق تقرير معملي متكامل.">
-			keywords = <"المعمل - المختبر", "الباثولوجيا - المرضية", "الكيمياء الحيوية", "الدمويات", "الميكروبيولوجيا", "المناعيات - علم المناعة">
-			misuse = <"قد تكون التخصيصات أكثر مناسبة للتقارير المركبة مثل حالات الميكروبيولوجيا أو الهيستوباثولوجيا.">
-			copyright = <"© openEHR Foundation">
-		>
 		["en"] = <
 			language = <[ISO_639-1::en]>
 			purpose = <"To record the result, including findings and the laboratory's interpretation, of an investigation performed on specimens collected from an individual or related to that individual.">
+			keywords = <"lab","pathology","biochemistry","haematology","microbiology","immunology","laboratory","anatomical","chemical","clinical","immunopathology","cytology","histopathology","test","biopsy","specimen","forensic","genetic","laboratory medicine","results","analysis">
+			copyright = <"© openEHR Foundation">
 			use = <"Use to record the result, including findings and the laboratory's interpretation, of an investigation performed on specimens collected from an individual or related to that individual. This is typically done in a laboratory, but may be done in other environments such as at the point of care.
 
 This archetype is intended to cover the result of a single ordered investigation where the specimen(s) are collected as a single procedure, and may include multiple analyte results or other components. Examples of this could include 'Full blood count', which would yield a separate analyte result for the count of each type of blood cell, or 'kidney biopsy non-neoplastic', which would yield findings from microscopy, immunohistochemistry and electron microscopy.
@@ -193,15 +188,25 @@ Where 'reflex tests' are performed by the laboratory, these may be handled as pe
 1. Record the reflex test results additional 'Test findings' within the same 'openEHR-EHR-OBSERVATION.laboratory_test_result'
 2. Record the reflex test results as 'Test findings' within a new 'openEHR-EHR-OBSERVATION.laboratory_test_result' but refer to the original lab test request via 'Test request details'.
 3. Record the reflex test results as 'Test findings' within a new 'openEHR-EHR-OBSERVATION.laboratory_test_result' but reference a new lab test request as well as the original lab test request via 'Test request details'.">
-			keywords = <"lab", "pathology", "biochemistry", "haematology", "microbiology", "immunology", "laboratory", "anatomical", "chemical", "clinical", "immunopathology", "cytology", "histopathology", "test", "biopsy", "specimen", "forensic", "genetic", "laboratory medicine", "results", "analysis">
 			misuse = <"Not to be used to record an Autopsy or a Forensic report, although tests on some specimens that are taken in such situations may be represented using this archetype. For these, additional or specialised archetypes will be required to represent the data.
 
 This archetype is suitable for representation of general laboratory test results, but not intended to cover full synoptic reports. For these, additional specialising archetypes are required to represent the data.">
+		>
+		["ar-sy"] = <
+			language = <[ISO_639-1::ar-sy]>
+			purpose = <"لتسجيل نتيجة اختبار المعمل, و التي قد يتم استخدامها لتسجيل اختبار ذي قيمة واحدة, و عادة ما يتم بعد ذلك المزيد من التخصيص أو الوضع في قالب لتمثيل اختبار متعدد القيم أو رتل من الاختبارات.
+و يمثل هذا النموذج كوالد (أب) للتخصيصات الأخرى لاختبارات معملية أكثر تحديدا مثل الميكروبيولوجيا و الهيستوباثولوجيا.">
+			keywords = <"المعمل - المختبر","الباثولوجيا - المرضية","الكيمياء الحيوية","الدمويات","الميكروبيولوجيا","المناعيات - علم المناعة">
 			copyright = <"© openEHR Foundation">
+			use = <"قد يستخدم لتسجيل نتيجة اختبار المعمل, و التي قد يتم استخدامها لتسجيل اختبار ذي قيمة واحدة, و عادة ما يتم بعد ذلك المزيد من التخصيص أو الوضع في قالب لتمثيل اختبار متعدد القيم أو رتل من الاختبارات.
+
+يتم بعد ذلك تقديم التقرير للطبيب السريري الذي قام بطلب الاختبار في سياق تقرير معملي متكامل.">
+			misuse = <"قد تكون التخصيصات أكثر مناسبة للتقارير المركبة مثل حالات الميكروبيولوجيا أو الهيستوباثولوجيا.">
 		>
 		["it"] = <
 			language = <[ISO_639-1::it]>
 			purpose = <"Registrare il risultato, compresi i riscontri e l'interpretazione del laboratorio, di un'indagine effettuata su campioni raccolti su un individuo o relativi a quell'individuo.">
+			keywords = <"lab, patologia, biochimica, ematologia, microbiologia, immunologia, laboratorio, anatomia, chimica, clinica, immunopatologia, citologia, istopatologia, test, biopsia, campione, medicina legale, genetica, medicina di laboratorio, risultati, analisi", ...>
 			use = <"Utilizzato per registrare il risultato, compresi i riscontri e l'interpretazione del laboratorio, di un'indagine effettuata su campioni raccolti su un individuo o relativi a quell'individuo. Questo è tipicamente fatto in un laboratorio, ma può essere fatto in altri ambienti, come ad esempio al punto di cura.
 
 Questo archetipo è inteso per coprire il risultato di una singola indagine ordinata in cui il campione o i campioni sono raccolti come un'unica procedura, e può includere risultati di analiti multipli o altri componenti. Esempi di ciò potrebbero includere l' \"emocromo completo\", che darebbe un risultato dell'analisi separato per il conteggio di ciascun tipo di cellula del sangue, o la \"biopsia renale non neoplastica\", che darebbe risultati da microscopia, immunoistochimica e microscopia elettronica.
@@ -220,7 +225,6 @@ Se i \"reflex test\" vengono eseguiti dal laboratorio, questi possono essere ges
 1. Registrare i risultati addizionali dei reflex test come 'Risultati dei test' all'interno dello stesso 'openEHR-EHR-OBSERVATION.laboratory_test_result'.
 2. 2. Registrare i risultati del reflex test come 'Risultati del test' all'interno di un nuovo 'openEHR-EHR-OBSERVATION.laboratory_test_result', ma fare riferimento alla richiesta originale del test di laboratorio tramite 'Dettagli della richiesta di test'.
 3. 3. Registrare i risultati del reflex test come 'Risultati del test' all'interno di un nuovo 'openEHR-EHR-OBSERVATION.laboratory_test_result', ma fare riferimento alla nuova richiesta di test di laboratorio insieme alla richiesta originale di test di laboratorio tramite 'Dettagli della richiesta di test'.">
-			keywords = <"lab, patologia, biochimica, ematologia, microbiologia, immunologia, laboratorio, anatomia, chimica, clinica, immunopatologia, citologia, istopatologia, test, biopsia, campione, medicina legale, genetica, medicina di laboratorio, risultati, analisi", ...>
 			misuse = <"Da non utilizzare per registrare un'autopsia o un rapporto forense, anche se i test su alcuni campioni prelevati in tali situazioni possono essere rappresentati utilizzando questo archetipo. Per questi, saranno necessari archetipi aggiuntivi o specializzati per rappresentare i dati.
 
 Questo archetipo è adatto per la rappresentazione dei risultati generali dei test di laboratorio, ma non è destinato a coprire i rapporti sinottici completi. Per questi, sono necessari ulteriori archetipi specializzati per rappresentare i dati.">
@@ -228,6 +232,7 @@ Questo archetipo è adatto per la rappresentazione dei risultati generali dei te
 		["zh-cn"] = <
 			language = <[ISO_639-1::zh-cn]>
 			purpose = <"用于记录针对组织和体液等标本所进行的病理学实验室检验项目的发现/所见和解释。这通常是由实验室来完成，但也可能会是在其他环境下完成的，如床旁。">
+			keywords = <"实验室","医学实验室","临床实验室","中心实验室","检验科","化验室","化验科","病理学","检验医学","检验","医学检验","临床检验医学","临床检验","生物化学","生化","血液学","微生物学","免疫学","解剖学","化学","临床","免疫病理学","细胞学","组织病理学","试验","试验项目","检验项目","化验项目","报告项目","活组织检查","活检","标本","样本","样品","试样","法医学","遗传学">
 			use = <"用于记录任何病理学实验室检验结果，包括作为某个组合型操作项目或手术的组成部分而进行的针对某种标本的某一检验项目所获得的结果。
 
 可以采用模板或专用原始型来表达多种分析物的组套。
@@ -237,7 +242,6 @@ Questo archetipo è adatto per la rappresentazione dei risultati generali dei te
 实验室检验报告与HL7 FHIR 诊断报告资源DiagnosticReport之间具有高度的一致性。
 
 在完整的基于组合式文档的报告的背景下，通常会作为一个构成要素，回报给申请医生。">
-			keywords = <"实验室", "医学实验室", "临床实验室", "中心实验室", "检验科", "化验室", "化验科", "病理学", "检验医学", "检验", "医学检验", "临床检验医学", "临床检验", "生物化学", "生化", "血液学", "微生物学", "免疫学", "解剖学", "化学", "临床", "免疫病理学", "细胞学", "组织病理学", "试验", "试验项目", "检验项目", "化验项目", "报告项目", "活组织检查", "活检", "标本", "样本", "样品", "试样", "法医学", "遗传学">
 			misuse = <"并非旨在用于报告非病理学检验结果，如影像学诊断、心电图或呼吸功能试验。
 
 并非旨在用于表达完整的累积型报告。当前这一实验室检验结果原始型表达的仅仅是，累积型检验项目报告之中通常被视为纵列的结果集合之一。累积型报告是一种视图，是利用由多个观测指标OBSERVATION原始型所表示的结果构建而成。
@@ -274,8 +278,6 @@ Where 'reflex tests' are performed by the laboratory, these may be handled as pe
 This archetype is suitable for representation of general laboratory test results, but not intended to cover full synoptic reports. For these, additional specialising archetypes are required to represent the data.(en)">
 		>
 	>
-	lifecycle_state = <"published">
-	other_contributors = <"Andreas Abildgaard, OUS, Norway", "Yaser Abuhajjaj, United Arab Emirates", "Marit Alice Venheim, Helse Vest IKT, Norway", "Tomas Alme, DIPS ASA, Norway", "Vebjørn Arntzen, Oslo University Hospital, Norway (openEHR Editor)", "Koray Atalag, University of Auckland, New Zealand", "Silje Ljosland Bakke, Nasjonal IKT HF, Norway (openEHR Editor)", "Ryan Julius Banez, AC Health, Philippines", "Marcos Barreto, Universidade Federal da Bahia, Brazil", "Kristian Berg, Vestvågøy kommune - Fagutviklingsavdelingen, Norway", "SB Bhattacharyya, Sudisa Consultancy Services, India", "Sharmila Biswas, Dr Sharmila Biswas GP, Australia", "Johan Bjerner, Fürst, Norway", "Greg Burch, Tiny Medical Apps, United Kingdom", "Fatemeh Chalabianloo, Helse Bergen, Norway", "Doug Chesher, PaLMS, Australia", "Bjørn Christensen, Helse Bergen HF, Norway", "Stephen Chu, NEHTA, Australia (Editor)", "Matthew Cordell, NEHTA, Australia", "Lisbeth Dahlhaug, Helse Midt - Norge IT, Norway", "Andre de Wolf, NeHTA, Australia", "Gail Easterbrook, Flinders Medical Centre, Australia", "Stig Erik Hegrestad, Helse Førde, Norway", "David Evans, Queensland Health, Australia", "David Fallas, Sysmex NZ Ltd, New Zealand", "Shahla Foozonkhah, Iran ministry of health and education, Iran", "Hildegard Franke, freshEHR Clinical Informatics Ltd., United Kingdom", "Heath Frankel, Ocean Informatics, Australia", "Frode Gilberg, PRIDOK AS, Norway", "Rosane Gotardo, Systema Ltda., Brazil", "Heather Grain, Llewelyn Grain Informatics, Australia", "Grahame Grieve, Health Intersections Pyty Ltd, Australia (Editor)", "Åshild Halvorsen, Helse Nord RHF, Norway", "martin hanlon, Careworks, United Kingdom", "Sam Heard, Ocean Informatics, Australia", "Anca Heyd, DIPS ASA, Norway", "Geir Hoff, Sykehuset Telemark HF, Norway", "Evelyn Hovenga, EJSH Consulting, Australia", "Silje Kaada, Helse-Bergen, Avdeling for immunologi og transfusjonsmedisin, Norway", "Lars Morgan Karlsen, DIPS ASA, Norway", "Mary Kelaher, NEHTA, Australia", "Nils Kolstrup, Skansen Legekontor og Nasjonalt Senter for samhandling og telemedisin, Norway", "Anne Kristin Strand, Sykehuspartner HF, Norway", "Tomi Laptoš, Marand, Slovenia", "Liv Laugen, Oslo universitetssykehus, Norway", "Michael Legg, Michael Legg & associates, Australia", "Sabine Leh, Haukeland University Hospital, Department of Pathology, Norway", "Heather Leslie, Atomica Informatics, Australia (openEHR Editor)", "Neranga Liyanaarachchi, Ministry of Health, Postgraduate Institute of Medicine, Sri Lanka", "Zijian Li, China", "Jan-Arne Ludvigsen, DIPS AS, Norway", "Hallvard Lærum, Direktoratet for e-helse, Norway", "Manisha Mantri, C-DAC, India", "Siv Marie Lien, DIPS ASA, Norway", "Ole Martin Sand, DIPS ASA, Norway", "Mike Martyn, The Hobart Anaesthetic Group, Australia", "James McClay, University of Nebraska Medical Center, United States", "Andrew McIntyre, Medical-Objects, Australia", "David McKillop, NEHTA, Australia", "Hildegard McNicoll, freshEHR Clinical Informatics Ltd., United Kingdom", "Ian McNicoll, freshEHR Clinical Informatics, United Kingdom (openEHR Editor)", "Angela Merzweiler, University Hospital of Heidelberg, Germany", "Paul Miller, SCIMP NHS Scotland, United Kingdom", "Chris Mitchell, RACGP, Australia", "Stewart Morrison, NEHTA, Australia", "George Nikolaidis, Ergobyte Informatics S.A., Greece", "Bjørn Næss, DIPS AS, Norway", "Bjørn Odvar Eriksen, UNN, Norway", "Masafumi Okada, University of Tokyo, Japan", "Andrej Orel, Marand d.o.o., Slovenia", "Michael Osborne, Mater Health Services, Australia", "Vaclav Papez, University of West Bohemia, Czech Republic", "Anne Pauline Anderssen, Helse Nord RHF, Norway", "Ana Pereira, CINTESIS, CUF-Porto, Portugal", "Vladimir Pizzo, Hospital Sírio Libanês, Brazil", "Navin Ramachandran, NHS, United Kingdom", "Lars Retterstøl, OUS, Norway", "Jussara Rotzsch, Hospital Alemão Oswaldo Cruz, Brazil", "David Rowed, VAMC Clinic, Australia (Editor)", "Marcus vinicius de Régis, NUTES, Brazil", "Mona Saleh (Translator)", "Diogo Schmidt, UNISINOS, Brazil", "Gro-Hilde Severinsen, Norwegian center for ehealthresearch, Norway", "Anoop Shah, University College London, United Kingdom", "Kyle Shore, Charm Health, Australia", "Hildegunn Siv Aase, Helse Bergen, Norway", "Niclas Skyttberg, Karolinska Institutet, Sweden", "Matt Stibbs, Digi-M Ltd., United Kingdom", "Iztok Stotl, UKCLJ, Slovenia", "Norwegian Review Summary, Nasjonal IKT HF, Norway", "Line Sæle, Nasjonal IKT HF, Norway", "Sveinung Sørbye, UNN HF, Norway", "Nyree Taylor, Ocean Informatics, Australia", "Tesfay Teame, Folkehelseinstittutet, Norway", "Rowan Thomas, St. Vincent's Hospital Melbourne, Australia", "Michael Thompson, Queensland Health, Australia", "Gordon Tomes, Australian Institute of Health and Welfare, Australia", "Richard Townley-O'Neill, NEHTA, Australia", "Katrin Troeltzsch, Nationales Centrum für Tumorerkrankungen (NCT); Universitätsklinikum Heidelberg, Germany", "Torleif Trydal, Fürst AS, Norway", "Gro-Hilde Ulriksen, Norwegian center for ehealthresearch, Norway", "John Tore Valand, Helse Bergen, Norway (openEHR Editor)", "Wouter Zanen, Eurotranplant, Netherlands", "Lin Zhang, Taikang Insurance Group, China">
 	other_details = <
 		["licence"] = <"This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/.">
 		["custodian_organisation"] = <"openEHR Foundation">
@@ -455,9 +457,6 @@ definition
 			}
 		}
 	}
-
-
-
 
 ontology
 	term_definitions = <
