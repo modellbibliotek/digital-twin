@@ -1,4 +1,7 @@
-Shared resources for a medical/physical digital twin project at Linköping University. More info coming later...
+Shared resources for data nosmalisation/standardisation to be used in a medical/physical digital twin project at Linköping University, IMT (Gunnar Cedersund et.al.) + Region Östergötland. See image 
+* About the digital twin in English https://www.youtube.com/watch?v=MvWPHM7wWV4
+* Longer in Swedish; Part 1: https://www.youtube.com/watch?v=8geMW5lpSs4 Part2: https://www.youtube.com/watch?v=SxtxhjR-lAU 
+![image](https://user-images.githubusercontent.com/1034001/120607667-b0594400-c450-11eb-8894-435619974e3d.png)
 
 ## Tools:
 * List/browse archetypes (and template examples): https://ckm.openehr.org/ckm/
