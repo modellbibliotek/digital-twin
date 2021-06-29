@@ -1,3 +1,5 @@
+# Integrating a Digital Twins with openEHR based systems
+
 Shared resources for data nosmalisation/standardisation to be used in a medical/physical digital twin project at Linköping University, IMT (Gunnar Cedersund et.al.) + Region Östergötland. See image 
 * About the digital twin in English https://www.youtube.com/watch?v=MvWPHM7wWV4
 * Longer in Swedish; Part 1: https://www.youtube.com/watch?v=8geMW5lpSs4 Part2: https://www.youtube.com/watch?v=SxtxhjR-lAU 
@@ -27,7 +29,7 @@ The "Example setup and settings" in https://github.com/modellbibliotek/klinfys-r
    * [Height/Length](https://ckm.openehr.org/ckm/archetypes/1013.1.3210)
 * Weight
    * [Body weight](https://ckm.openehr.org/ckm/archetypes/1013.1.2960) 
-* Gender & Age are in the EHRscape test environmend modelled in the EHR status object and set for each test patient, se AQL-query and example list at https://github.com/modellbibliotek/klinfys-register that are using the same sfmi test domein
+* Gender & Age are in the EHRscape test environment modelled in the EHR status object and already set for each test patient, see AQL-query and example list at https://github.com/modellbibliotek/klinfys-register that is using the same sfmi test domain
 * Diagnosis (to know if the person is diagnosed with diabetes)
    * [Problem/Diagnosis](https://ckm.openehr.org/ckm/archetypes/1013.1.169)
 
@@ -36,7 +38,12 @@ The "Example setup and settings" in https://github.com/modellbibliotek/klinfys-r
 * ... 
 
 #### COMPOSITION archetypes ("wrappers" needed in order to be able to store data in openEHR)
-* Self reporting: 
+* [Self Monitoring](https://ckm.openehr.org/ckm/archetypes/1013.1.2430): 
    * Used in one template (Digital_Twin_Self_Monitoring) used for frequently recurring reports above, like Blood glucose, Nutrition/meals and Body weight as described above
-* Encounter:
+* [Encounter](https://ckm.openehr.org/ckm/archetypes/1013.1.120):
    * Used in another template (Digital_Twin_Base_Data) for reporting Basics that change less frequently. like height and diagnosis
+
+## Queries (AQL)
+
+See separate file https://github.com/modellbibliotek/digitaltwin/blob/master/query_examples.md
+
