@@ -22,9 +22,9 @@
       "original_namespace" : "",
       "original_publisher" : "",
       "custodian_namespace" : "",
-      "sem_ver" : "0.2.0",
+      "sem_ver" : "0.2.1",
       "build_uid" : "",
-      "MD5-CAM-1.0.1" : "a0adc568c3653af8d8e9d54ea9e5e99e",
+      "MD5-CAM-1.0.1" : "1afe7be8749cde174eb2bc2dbe7c2ca0",
       "PARENT:MD5-CAM-1.0.1" : "8F3156560D39B12C8362DF26A4C575BD"
     },
     "details" : {
@@ -714,6 +714,7 @@
                       },
                       "constraint" : [ ],
                       "selectedTerminologies" : [ "http://snomed.info/sct/" ],
+                      "limitToList" : false,
                       "includedExternalTerminologyCodes" : [ {
                         "terminologyId" : "http://snomed.info/sct/",
                         "code" : "73211009",
