@@ -39,3 +39,15 @@ CONTAINS CLUSTER j[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1]
 WHERE analyte_code_string = '439926003'
 OFFSET 0 LIMIT 10
 ```
+
+SELECT l/items[at0001]/value/magnitude AS Analyte_result_magnitude,
+       l/items[at0001]/value/units AS Analyte_result_unitd,
+       l/items[at0024]/value/value AS Analyte_name,
+       l/items[at0024]/value/defining_code/code_string AS Analyte_SNOMED_CT_code,
+       p/data[at0001]/events[at0002,'Blood glucose']/time/value AS time_value
+FROM EHR e
+CONTAINS COMPOSITION c[openEHR-EHR-COMPOSITION.self_monitoring.v0] 
+CONTAINS OBSERVATION p[openEHR-EHR-OBSERVATION.laboratory_test_result.v1]
+CONTAINS (CLUSTER l[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1] and CLUSTER f[openEHR-EHR-CLUSTER.specimen.v1]) 
+WHERE Analyte_SNOMED_CT_code = '439926003'
+OFFSET 0 LIMIT 10
