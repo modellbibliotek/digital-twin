@@ -10,6 +10,8 @@ Shared resources for data nosmalisation/standardisation to be used in a medical/
 * **Create GUI/forms and queries**: https://tools.better.care/sandbox/studio/login
 * Snomed CT browser: https://browser.ihtsdotools.org/
 
+The "Example setup and settings" in https://github.com/modellbibliotek/klinfys-register can be used fpr testing in this project too.
+
 ## Archetype/template links 
 
 #### COMPOSITION archetypes ("wrappers" needed in order to be able to store data in openEHR)
@@ -27,5 +29,6 @@ Shared resources for data nosmalisation/standardisation to be used in a medical/
 * Diagnosis (to know if the person is diagnosed with diabetes)
 
 #### Later in the Blood glucose twin model
-* Physical exercise... 
+* Physical exercise
+* ... 
 
