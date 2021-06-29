@@ -14,9 +14,8 @@ The "Example setup and settings" in https://github.com/modellbibliotek/klinfys-r
 
 ## Archetype/template links 
 
-#### Prioritized in the Blood glucose twin model
-* Blood glucose (in plasma)
-    * discussion https://discourse.openehr.org/t/shared-blood-glucose-hba1c-templates/1561/2
+#### Prioritized in the Blood glucose predicting digital twin model
+* Blood glucose & HbA1c are based on the archetype combination pattern discussed at https://discourse.openehr.org/t/shared-blood-glucose-hba1c-templates/1561/2
     * Local templates of type OBSERVATION to be included in larger template of type COMPOSITION: https://github.com/modellbibliotek/digitaltwin/blob/master/local/Glucose%20test%20result%20example.t.json and https://github.com/modellbibliotek/digitaltwin/blob/master/local/HbA1c%20test%20result.t.json
 * Nutrition/meals (e.g. reported from apps like MyFitnesspal etc) - start, length/end, Carbohydrates, Protein (later also Fat)
    *  The [Nutrition intake](https://ckm.openehr.org/ckm/archetypes/1013.1.3564) (OBSERVATION) archetype handles events like Meals/Snacks and can aslo be used to record a cumulative total over a time period (e.g. per day or week). Details for each event is recorded using:
@@ -38,6 +37,6 @@ The "Example setup and settings" in https://github.com/modellbibliotek/klinfys-r
 
 #### COMPOSITION archetypes ("wrappers" needed in order to be able to store data in openEHR)
 * Self reporting: 
-   * Used in one template (Digital_Twin_Self_Report_test2) used for frequently recurring reports above, like Blood glucose, Nutrition/meals and Body weight as described above
+   * Used in one template (Digital_Twin_Self_Monitoring) used for frequently recurring reports above, like Blood glucose, Nutrition/meals and Body weight as described above
 * Encounter:
-   * Used in another template (Digital_Twin_Base_data) for reporting Basics that change less frequently. like height and diagnosis
+   * Used in another template (Digital_Twin_Base_Data) for reporting Basics that change less frequently. like height and diagnosis
