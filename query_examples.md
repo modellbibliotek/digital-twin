@@ -17,7 +17,7 @@ ORDER BY measurement_time DESCENDING
 OFFSET 0 LIMIT 1
 ```
 
-### Glocose values
+### All lab values values
 ```
 SELECT j/items[at0024]/value AS analyte_name,
        j/items[at0024]/value/defining_code/code_string AS analyte_code_string,
@@ -25,5 +25,17 @@ SELECT j/items[at0024]/value AS analyte_name,
 FROM EHR e
 CONTAINS COMPOSITION c[openEHR-EHR-COMPOSITION.self_monitoring.v0] 
 CONTAINS CLUSTER j[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1] 
+OFFSET 0 LIMIT 10
+```
+
+### Glucose (continuous...) values values
+```
+SELECT j/items[at0024]/value AS analyte_name,
+       j/items[at0024]/value/defining_code/code_string AS analyte_code_string,
+       j/items[at0001]/value AS Analyte_result
+FROM EHR e
+CONTAINS COMPOSITION c[openEHR-EHR-COMPOSITION.self_monitoring.v0] 
+CONTAINS CLUSTER j[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1] 
+WHERE analyte_code_string = '439926003'
 OFFSET 0 LIMIT 10
 ```
