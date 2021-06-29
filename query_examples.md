@@ -54,9 +54,9 @@ WHERE Analyte_SNOMED_CT_code = '439926003'
 OFFSET 0 LIMIT 10
 ```
 
-### Post
+### REST/https POSTing via API
 
-By posting the query below to https://rest.ehrscape.com/rest/openehr/v1/query/aql (via your code or a tool like Postman) using basic authentication with the sfmi user and password...
+By posting the query below to https://rest.ehrscape.com/rest/openehr/v1/query/aql (via your own code or a tool like Postman) using basic authentication with the sfmi user and password...
 
 ```
 {
