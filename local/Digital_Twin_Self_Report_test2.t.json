@@ -22,9 +22,9 @@
       "original_namespace" : "",
       "original_publisher" : "",
       "custodian_namespace" : "",
-      "sem_ver" : "4.0.0",
+      "sem_ver" : "4.1.0",
       "build_uid" : "1ff0fe94-7459-47b0-af94-9869a5df080b",
-      "MD5-CAM-1.0.1" : "b1ee1aabbe196af907f24923578b3c78",
+      "MD5-CAM-1.0.1" : "ffad296fcc1a45b593bed443d3581edd",
       "PARENT:MD5-CAM-1.0.1" : "1C84C8769BB0D98F98BADEB6DE3EDE75"
     },
     "details" : {
@@ -131,7 +131,7 @@
         "at0000.1" : {
           "@type" : "ARCHETYPE_TERM",
           "code" : "at0000.1",
-          "text" : "Digital_Twin_Self_Report_test2",
+          "text" : "Digital_Twin_Self_Monitoring",
           "description" : "A composition to record a person self-monitoring particular parameters."
         }
       },
@@ -153,7 +153,7 @@
   "rmName" : "openehr",
   "rmRelease" : "1.1.0",
   "generated" : true,
-  "templateId" : "Digital_Twin_Self_Report_test2",
+  "templateId" : "Digital_Twin_Self_Monitoring",
   "otherMetaData" : { },
   "templateOverlays" : [ {
     "@type" : "TEMPLATE_OVERLAY",
