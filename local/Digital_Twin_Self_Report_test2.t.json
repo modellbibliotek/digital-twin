@@ -22,9 +22,9 @@
       "original_namespace" : "",
       "original_publisher" : "",
       "custodian_namespace" : "",
-      "sem_ver" : "2.0.0",
+      "sem_ver" : "3.0.0",
       "build_uid" : "1ff0fe94-7459-47b0-af94-9869a5df080b",
-      "MD5-CAM-1.0.1" : "a9ddb9a8b288bb91a7e3ddb831eb48d5",
+      "MD5-CAM-1.0.1" : "4a97cb57738051ecd3d44fc8524aead4",
       "PARENT:MD5-CAM-1.0.1" : "1C84C8769BB0D98F98BADEB6DE3EDE75"
     },
     "details" : {
@@ -366,7 +366,7 @@
           "at0000.1" : {
             "@type" : "ARCHETYPE_TERM",
             "code" : "at0000.1",
-            "text" : "Glucose measurements",
+            "text" : "Glucose etc",
             "description" : "A generic section header which should be renamed in a template to suit a specific clinical context."
           }
         },
@@ -1139,7 +1139,7 @@
           "at0000.1" : {
             "@type" : "ARCHETYPE_TERM",
             "code" : "at0000.1",
-            "text" : "Physical exercise",
+            "text" : "Physical exercise (Not yet included in test)",
             "description" : "A generic section header which should be renamed in a template to suit a specific clinical context."
           }
         },
