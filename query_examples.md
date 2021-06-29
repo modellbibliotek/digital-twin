@@ -1,4 +1,4 @@
-Get last height for a specific patient + sex + DOB
+### Get last height for a specific patient + sex + DOB
 
 ```
 SELECT s/data[at0001]/events[at0002]/data[at0003]/items[at0004]/value/magnitude AS height,
@@ -15,4 +15,15 @@ WHERE ehrID = 'a3aaa0be-137a-4d8d-a086-1c21e710e77c'
 --WHERE patient_id = '1448204'
 ORDER BY measurement_time DESCENDING
 OFFSET 0 LIMIT 1
+```
+
+### Glocose values
+```
+SELECT j/items[at0024]/value AS analyte_name,
+       j/items[at0024]/value/defining_code/code_string AS analyte_code_string,
+       j/items[at0001]/value AS Analyte_result
+FROM EHR e
+CONTAINS COMPOSITION c[openEHR-EHR-COMPOSITION.self_monitoring.v0] 
+CONTAINS CLUSTER j[openEHR-EHR-CLUSTER.laboratory_test_analyte.v1] 
+OFFSET 0 LIMIT 10
 ```
