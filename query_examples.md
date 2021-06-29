@@ -1,5 +1,7 @@
 ### Get last height for a specific patient + sex + DOB
 
+Lines beginning with `--` are commented out alternative examples and not used in the query
+
 ```
 SELECT s/data[at0001]/events[at0002]/data[at0003]/items[at0004]/value/magnitude AS height,
        e/ehr_id/value as ehrID,
@@ -17,7 +19,7 @@ ORDER BY measurement_time DESCENDING
 OFFSET 0 LIMIT 1
 ```
 
-### All lab values values
+### All lab values valuescontained inside self monitoring compositions
 ```
 SELECT j/items[at0024]/value AS analyte_name,
        j/items[at0024]/value/defining_code/code_string AS analyte_code_string,
