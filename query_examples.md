@@ -19,7 +19,7 @@ ORDER BY measurement_time DESCENDING
 OFFSET 0 LIMIT 1
 ```
 
-### All lab values valuescontained inside self monitoring compositions
+### Get all lab values values contained inside self monitoring COMPOSITIONs
 ```
 SELECT j/items[at0024]/value AS analyte_name,
        j/items[at0024]/value/defining_code/code_string AS analyte_code_string,
