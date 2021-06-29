@@ -22,9 +22,9 @@
       "original_namespace" : "",
       "original_publisher" : "",
       "custodian_namespace" : "",
-      "sem_ver" : "1.0.0",
+      "sem_ver" : "1.1.0",
       "build_uid" : "1ff0fe94-7459-47b0-af94-9869a5df080b",
-      "MD5-CAM-1.0.1" : "3f270c7ffc58e84c349969e5691adb3c",
+      "MD5-CAM-1.0.1" : "1b622c42560502da005c34b65305b630",
       "PARENT:MD5-CAM-1.0.1" : "1C84C8769BB0D98F98BADEB6DE3EDE75"
     },
     "details" : {
@@ -122,7 +122,7 @@
         "at0000.1" : {
           "@type" : "ARCHETYPE_TERM",
           "code" : "at0000.1",
-          "text" : "Digital_Twin_Self_Report_test1",
+          "text" : "Digital_Twin_Self_Report_test2",
           "description" : "A composition to record a person self-monitoring particular parameters."
         }
       },
