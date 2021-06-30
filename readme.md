@@ -12,7 +12,7 @@ Shared resources for data nosmalisation/standardisation to be used in a medical/
 * **Create GUI/forms and queries**: https://tools.better.care/sandbox/studio/login
 * Snomed CT browser: https://browser.ihtsdotools.org/
 
-The "Example setup and settings" in https://github.com/modellbibliotek/klinfys-register can be used fpr testing in this project too.
+The "Example setup and settings" in https://github.com/modellbibliotek/klinfys-register can be used for testing in this project too.
 
 ## Archetype/template links 
 
