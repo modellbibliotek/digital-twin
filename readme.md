@@ -1,4 +1,4 @@
-# Integrating a Digital Twins with openEHR based systems
+# Integrating Digital Twins with openEHR based systems
 
 Shared resources for data nosmalisation/standardisation to be used in a medical/physical digital twin project at Linköping University, IMT (Gunnar Cedersund et.al.) + Region Östergötland. See image 
 * About the digital twin in English https://www.youtube.com/watch?v=MvWPHM7wWV4
