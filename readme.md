@@ -43,6 +43,10 @@ The "Example setup and settings" in https://github.com/modellbibliotek/klinfys-r
 * [Encounter](https://ckm.openehr.org/ckm/archetypes/1013.1.120):
    * Used in another template (Digital_Twin_Base_Data) for reporting Basics that change less frequently. like height and diagnosis
 
+## Terminology
+
+Some SNOMED CT codes used in the templates: https://docs.google.com/spreadsheets/d/1l7bfBePBlP1EGMIF2aSEAphvteqWXShGOCJ8Nvos0Nk/edit?usp=sharing (in a form that can be pasted as a table/list into the Archetype Designer instead of manually entered one by one)
+
 ## Queries (AQL)
 
 See separate file https://github.com/modellbibliotek/digitaltwin/blob/master/query_examples.md
